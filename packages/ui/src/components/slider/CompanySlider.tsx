@@ -66,10 +66,11 @@ export function CompanySlider({
   const resolvedValue = controlled
     ? range ? normalizeRange(value, min, max) : normalizeSingle(value, min, max)
     : internalValue;
-  const resolvedMarkValues = markValues ?? [min, Math.round(min + (max - min) * 0.25), Math.round(min + (max - min) * 0.5), Math.round(min + (max - min) * 0.75), max];
-  const marks = useMemo(() => showMarks
-    ? Object.fromEntries(resolvedMarkValues.map((mark) => [mark, markFormatter(mark)]))
-    : undefined, [markFormatter, resolvedMarkValues, showMarks]);
+  const marks = useMemo(() => {
+    if (!showMarks) return undefined;
+    const resolvedMarkValues = markValues ?? [min, Math.round(min + (max - min) * 0.25), Math.round(min + (max - min) * 0.5), Math.round(min + (max - min) * 0.75), max];
+    return Object.fromEntries(resolvedMarkValues.map((mark) => [mark, markFormatter(mark)]));
+  }, [markFormatter, markValues, max, min, showMarks]);
 
   useEffect(() => {
     if (!controlled) {

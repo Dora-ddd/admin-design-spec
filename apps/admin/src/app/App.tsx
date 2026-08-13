@@ -1,13 +1,29 @@
+import { useEffect, useState } from 'react';
 import { Empty, Menu, Typography } from 'antd';
 import { CompanyBusinessLayout } from '@company/ui/business-layout';
 import { CompanyPageHeader } from '@company/ui/page-header';
 import { CompanySurface } from '@company/ui/surface';
-import { adminRoutes } from '../routes';
+import { adminRoutes, findAdminRoute, findAdminRouteByKey } from '../routes';
 
 const { Text } = Typography;
 
 export function App() {
-  const activeRoute = adminRoutes[0];
+  const [activeRoute, setActiveRoute] = useState(() => findAdminRoute(window.location.pathname));
+
+  useEffect(() => {
+    const syncRoute = () => setActiveRoute(findAdminRoute(window.location.pathname));
+    window.addEventListener('popstate', syncRoute);
+    return () => window.removeEventListener('popstate', syncRoute);
+  }, []);
+
+  const navigate = (key: string) => {
+    const nextRoute = findAdminRouteByKey(key);
+    if (window.location.pathname !== nextRoute.path) {
+      window.history.pushState(null, '', nextRoute.path);
+    }
+    setActiveRoute(nextRoute);
+  };
+
   const navigation = (
     <div className="admin-navigation">
       <div className="admin-navigation__brand"><Text strong>后台管理系统</Text></div>
@@ -15,6 +31,7 @@ export function App() {
         mode="inline"
         selectedKeys={[activeRoute.key]}
         items={adminRoutes.map((route) => ({ key: route.key, label: route.title }))}
+        onClick={({ key }) => navigate(key)}
       />
     </div>
   );
