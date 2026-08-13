@@ -1,0 +1,376 @@
+.terminal-ransomware-page {
+  min-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--company-space-16px);
+}
+
+.terminal-ransomware-filter {
+  min-height: 88px;
+  padding: var(--company-space-16px) var(--company-space-24px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--company-space-24px);
+  border-radius: var(--company-container-radius);
+  background: var(--company-surface, #fff);
+}
+
+.terminal-ransomware-filter-fields {
+  min-width: 0;
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(220px, 1fr));
+  gap: var(--company-space-24px);
+}
+
+.terminal-ransomware-filter-actions {
+  display: flex;
+  gap: var(--company-space-8px);
+}
+
+.terminal-ransomware-metrics {
+  min-height: 136px;
+  padding: var(--company-space-20px) 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--company-container-radius);
+  background:
+    linear-gradient(100deg, rgba(224, 247, 255, .78), rgba(238, 253, 250, .94) 46%, rgba(234, 244, 255, .82)),
+    var(--company-surface, #fff);
+}
+
+.terminal-ransomware-metrics::after {
+  width: 240px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  content: '';
+  opacity: .36;
+  background: url('/assets/visual/3d-smart-qa.png') right center / 120px 120px no-repeat;
+  pointer-events: none;
+}
+
+.terminal-ransomware-metric {
+  min-width: 0;
+  padding: 0 var(--company-space-24px);
+  display: flex;
+  align-items: center;
+  gap: var(--company-space-12px);
+  position: relative;
+  z-index: 1;
+}
+
+.terminal-ransomware-metric + .terminal-ransomware-metric::before {
+  width: 1px;
+  height: 72px;
+  position: absolute;
+  left: 0;
+  content: '';
+  background: rgba(174, 178, 184, .32);
+}
+
+.terminal-ransomware-metric img {
+  width: 56px;
+  height: 56px;
+  flex: 0 0 56px;
+  object-fit: contain;
+}
+
+.terminal-ransomware-metric > div {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.terminal-ransomware-metric .ant-typography {
+  color: var(--company-text-secondary, #525966);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.terminal-ransomware-metric strong {
+  color: var(--company-text, #242933);
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.terminal-ransomware-metric strong small {
+  margin-left: var(--company-space-4px);
+  color: var(--company-text-tertiary, #8a9099);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.terminal-ransomware-metric span {
+  color: var(--company-text-tertiary, #8a9099);
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.terminal-ransomware-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--company-space-16px);
+}
+
+.terminal-ransomware-card.ant-card {
+  min-width: 0;
+  min-height: 323px;
+}
+
+.terminal-ransomware-card > .ant-card-body {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.terminal-ransomware-chart-card .company-chart-frame {
+  min-height: 232px;
+}
+
+.terminal-ransomware-radar {
+  width: min(360px, 100%);
+  height: 232px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.terminal-ransomware-radar-grid,
+.terminal-ransomware-radar-value {
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  clip-path: polygon(50% 2%, 88% 20%, 98% 61%, 72% 96%, 28% 96%, 2% 61%, 12% 20%);
+}
+
+.terminal-ransomware-radar-grid {
+  width: 188px;
+  border: 1px solid var(--company-border, #dfe1e6);
+  background:
+    repeating-radial-gradient(circle, transparent 0 18px, rgba(174, 178, 184, .22) 19px 20px),
+    conic-gradient(from 0deg, rgba(223, 225, 230, .28), rgba(248, 249, 250, .18));
+}
+
+.terminal-ransomware-radar-value {
+  width: 142px;
+  background: rgba(85, 142, 243, .25);
+  border: 2px solid #558ef3;
+  clip-path: polygon(50% 4%, 86% 25%, 78% 67%, 68% 94%, 31% 81%, 8% 58%, 25% 28%);
+}
+
+.terminal-ransomware-radar > span {
+  --radar-angle: calc(var(--radar-index) * 51.43deg - 90deg);
+  width: 74px;
+  position: absolute;
+  left: calc(50% + cos(var(--radar-angle)) * 122px - 37px);
+  top: calc(50% + sin(var(--radar-angle)) * 101px - 10px);
+  color: var(--company-text-tertiary, #8a9099);
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.terminal-ransomware-radar-legend {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--company-space-6px);
+  color: var(--company-text-tertiary, #8a9099);
+  font-size: 12px;
+}
+
+.terminal-ransomware-radar-legend i {
+  width: 14px;
+  height: 2px;
+  background: #558ef3;
+}
+
+.terminal-ransomware-family-cloud {
+  min-height: 230px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--company-space-14px) var(--company-space-20px);
+}
+
+.terminal-ransomware-family-cloud button {
+  min-height: 30px;
+  padding: 0 var(--company-space-14px);
+  border: 1px solid transparent;
+  border-radius: var(--company-radius-full);
+  color: #0e78ff;
+  background: #eef5ff;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  transition: border-color .16s ease, transform .16s ease;
+}
+
+.terminal-ransomware-family-cloud button.medium { min-height: 34px; font-size: 13px; }
+.terminal-ransomware-family-cloud button.large { min-height: 40px; padding-inline: var(--company-space-18px); font-size: 15px; font-weight: 600; }
+.terminal-ransomware-family-cloud button.tone-1 { color: #00a174; background: #ebfaf5; }
+.terminal-ransomware-family-cloud button.tone-2 { color: #f05a0a; background: #fff5ed; }
+.terminal-ransomware-family-cloud button.tone-3 { color: #7761db; background: #f3f0ff; }
+.terminal-ransomware-family-cloud button.tone-4 { color: #f0131e; background: #fff1f2; }
+.terminal-ransomware-family-cloud button:hover,
+.terminal-ransomware-family-cloud button.active { border-color: currentColor; transform: translateY(-1px); }
+
+.terminal-ransomware-table-card .ant-table-wrapper,
+.terminal-ransomware-sample-card .ant-table-wrapper { min-width: 0; }
+
+.terminal-ransomware-table-card .ant-pagination {
+  margin: var(--company-space-12px) 0 0 auto;
+}
+
+.terminal-ransomware-rate {
+  display: grid;
+  grid-template-columns: minmax(52px, 1fr) 32px;
+  align-items: center;
+  gap: var(--company-space-8px);
+  font-size: 12px;
+}
+
+.terminal-ransomware-rate .ant-progress { margin: 0; }
+
+.terminal-ransomware-sample-card.ant-card { min-height: 323px; }
+
+.terminal-ransomware-pagination {
+  min-height: 32px;
+  margin-top: var(--company-space-12px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--company-space-16px);
+}
+
+.terminal-ransomware-matrix-card.ant-card { min-height: 640px; }
+
+.terminal-ransomware-matrix-actions,
+.terminal-ransomware-legend {
+  display: flex;
+  align-items: center;
+  gap: var(--company-space-12px);
+}
+
+.terminal-ransomware-matrix-actions .ant-btn .company-icon {
+  transition: transform .16s ease;
+}
+
+.terminal-ransomware-matrix-card:has(.terminal-ransomware-matrix.expanded) .terminal-ransomware-matrix-actions .ant-btn .company-icon {
+  transform: rotate(180deg);
+}
+
+.terminal-ransomware-legend {
+  min-height: 40px;
+  justify-content: flex-end;
+  color: var(--company-text-secondary, #525966);
+  font-size: 12px;
+}
+
+.terminal-ransomware-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--company-space-4px);
+}
+
+.terminal-ransomware-legend span::before {
+  width: 12px;
+  height: 12px;
+  border-radius: var(--company-radius-xs);
+  content: '';
+  background: var(--legend-color);
+  box-shadow: inset 4px 0 var(--legend-edge);
+}
+
+.terminal-ransomware-legend .excellent { --legend-color: #bce0b4; --legend-edge: #389e0d; }
+.terminal-ransomware-legend .good { --legend-color: #bae7ff; --legend-edge: #096dd9; }
+.terminal-ransomware-legend .medium { --legend-color: #ffd591; --legend-edge: #d46b08; }
+.terminal-ransomware-legend .poor { --legend-color: #ffccc7; --legend-edge: #cf1322; }
+
+.terminal-ransomware-matrix {
+  min-width: 960px;
+  max-height: 500px;
+  overflow: auto;
+  border: 1px solid var(--company-divider, #e8eaed);
+  border-radius: var(--company-card-radius);
+  transition: max-height .2s ease;
+}
+
+.terminal-ransomware-matrix.expanded { max-height: 720px; }
+
+.terminal-ransomware-matrix-head,
+.terminal-ransomware-matrix-row {
+  display: grid;
+  grid-template-columns: 132px repeat(7, minmax(110px, 1fr));
+}
+
+.terminal-ransomware-matrix-head {
+  min-height: 48px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--company-fill, #f2f3f5);
+}
+
+.terminal-ransomware-matrix-head strong,
+.terminal-ransomware-matrix-row > span {
+  padding: 0 var(--company-space-12px);
+  display: flex;
+  align-items: center;
+  border-right: 1px solid var(--company-divider, #e8eaed);
+  color: var(--company-text, #242933);
+  font-size: 12px;
+}
+
+.terminal-ransomware-matrix-row {
+  min-height: 76px;
+  border-top: 1px solid var(--company-divider, #e8eaed);
+}
+
+.terminal-ransomware-matrix-row > span {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background: var(--company-surface, #fff);
+}
+
+.terminal-ransomware-matrix-row button {
+  min-width: 0;
+  margin: var(--company-space-4px);
+  padding: var(--company-space-8px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 0;
+  border-left: 4px solid var(--matrix-edge);
+  border-radius: var(--company-radius-xs);
+  color: var(--company-text, #242933);
+  background: var(--matrix-bg);
+  text-align: left;
+  cursor: pointer;
+}
+
+.terminal-ransomware-matrix-row button:hover { filter: saturate(1.18) brightness(.99); }
+.terminal-ransomware-matrix-row button strong { color: var(--matrix-edge); font-size: 12px; }
+.terminal-ransomware-matrix-row button small { align-self: flex-end; color: var(--company-text-secondary, #525966); }
+.terminal-ransomware-matrix-row button.excellent { --matrix-bg: #e7f6e3; --matrix-edge: #389e0d; }
+.terminal-ransomware-matrix-row button.good { --matrix-bg: #e6f7ff; --matrix-edge: #096dd9; }
+.terminal-ransomware-matrix-row button.medium { --matrix-bg: #fff7e6; --matrix-edge: #d46b08; }
+.terminal-ransomware-matrix-row button.poor { --matrix-bg: #fff1f0; --matrix-edge: #cf1322; }
+
+@media (max-width: 1180px) {
+  .terminal-ransomware-page { min-width: 1000px; }
+  .terminal-ransomware-filter-fields { grid-template-columns: repeat(3, minmax(200px, 1fr)); gap: var(--company-space-16px); }
+  .terminal-ransomware-metric { padding-inline: var(--company-space-16px); }
+  .terminal-ransomware-metric img { width: 48px; height: 48px; flex-basis: 48px; }
+}

@@ -8,7 +8,9 @@
   },
   "scripts": {
     "dev": "pnpm --filter @admin-platform/admin dev",
-    "build": "pnpm --filter @company/charts build && pnpm --filter @admin-platform/admin build",
+    "dev:preview": "pnpm --filter @admin-platform/preview dev",
+    "build": "pnpm --filter @company/charts build && pnpm --filter @admin-platform/admin build && pnpm --filter @admin-platform/preview build",
+    "build:preview": "pnpm --filter @admin-platform/preview build",
     "typecheck": "pnpm -r --if-present typecheck"
   }
 }
