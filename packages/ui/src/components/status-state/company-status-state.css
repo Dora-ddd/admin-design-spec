@@ -1,0 +1,44 @@
+.company-status-state {
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--company-space-8px);
+}
+
+.company-status-state img {
+  width: 112px;
+  height: 112px;
+  object-fit: contain;
+}
+
+.company-status-state-compact {
+  min-height: 132px;
+}
+
+.company-status-state-compact img {
+  width: 88px;
+  height: 88px;
+}
+
+.company-data-loading {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--company-divider, #e8eaed);
+  border-radius: var(--company-container-radius);
+  background: var(--company-surface, #fff);
+}
+
+.company-data-loading__head {
+  height: 48px;
+  padding: 0 var(--company-space-16px);
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  align-items: center;
+  gap: var(--company-space-16px);
+  color: var(--company-text, #242933);
+  background: var(--company-bg-hover, #f8f9fa);
+  font-weight: 600;
+}

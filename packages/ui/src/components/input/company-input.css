@@ -1,0 +1,129 @@
+.company-input {
+  --company-input-height: var(--company-control-height);
+  --company-input-padding-inline: var(--company-space-12px);
+  --company-input-font-size: var(--company-control-font-size);
+  --company-input-line-height: var(--company-control-line-height);
+  --company-input-radius: var(--company-control-radius);
+}
+
+.company-input--compact {
+  --company-input-height: 24px;
+  --company-input-padding-inline: var(--company-space-8px);
+  --company-input-font-size: 12px;
+  --company-input-line-height: 20px;
+  --company-input-radius: var(--company-radius-sm);
+}
+
+.company-input--regular {
+  --company-input-height: 32px;
+  --company-input-padding-inline: var(--company-space-12px);
+  --company-input-font-size: 14px;
+  --company-input-line-height: 22px;
+  --company-input-radius: var(--company-radius-md);
+}
+
+.company-input--loose {
+  --company-input-height: 40px;
+  --company-input-padding-inline: var(--company-space-12px);
+  --company-input-font-size: 16px;
+  --company-input-line-height: 28px;
+  --company-input-radius: var(--company-radius-lg);
+}
+
+.company-input.ant-input,
+.company-input.ant-input-affix-wrapper {
+  width: 100%;
+  min-width: 0;
+  height: var(--company-input-height);
+  padding-block: 0;
+  padding-inline: var(--company-input-padding-inline);
+  border-color: var(--company-border, #dfe1e6);
+  border-radius: var(--company-input-radius);
+  color: var(--company-text, #242933);
+  background: var(--company-surface, #fff);
+  font-size: var(--company-input-font-size);
+  line-height: var(--company-input-line-height);
+  box-shadow: none;
+}
+
+.company-input.ant-input-affix-wrapper > .ant-input {
+  min-width: 0;
+  padding: 0;
+  color: var(--company-text, #242933);
+  background: transparent;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.company-input.ant-input::placeholder,
+.company-input.ant-input-affix-wrapper > .ant-input::placeholder {
+  color: var(--company-text-disabled, #aeb2b8);
+}
+
+.company-input__affix-group {
+  display: inline-flex;
+  min-width: 0;
+  align-items: center;
+  gap: var(--company-space-4px);
+}
+
+.company-input__icon {
+  width: var(--company-control-icon-size);
+  height: var(--company-control-icon-size);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  color: var(--company-text-secondary, #525966);
+  font-size: var(--company-control-icon-size);
+  line-height: 1;
+}
+
+.company-input__label {
+  min-width: 0;
+  flex: 0 1 auto;
+  color: var(--company-text-secondary, #525966);
+  white-space: nowrap;
+}
+
+.company-input.ant-input:not(.ant-input-disabled):hover,
+.company-input.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover,
+.company-input.is-hover.ant-input,
+.company-input.is-hover.ant-input-affix-wrapper {
+  border-color: var(--company-brand-hover, #00c879);
+}
+
+.company-input.ant-input:focus,
+.company-input.ant-input-focused,
+.company-input.ant-input-affix-wrapper-focused,
+.company-input.is-focused.ant-input,
+.company-input.is-focused.ant-input-affix-wrapper {
+  border-color: var(--company-brand, #00ab7a) !important;
+  box-shadow: var(--company-focus-shadow, 0 0 0 2px rgba(0, 171, 122, .2)) !important;
+}
+
+.company-input.is-error.ant-input,
+.company-input.is-error.ant-input-affix-wrapper,
+.company-input.ant-input-status-error,
+.company-input.ant-input-affix-wrapper-status-error {
+  border-color: var(--company-danger, #f0131e);
+}
+
+.company-input.is-error.ant-input:focus,
+.company-input.is-error.ant-input-affix-wrapper-focused {
+  box-shadow: var(--company-error-focus-shadow, 0 0 0 2px rgba(240, 19, 30, .12)) !important;
+}
+
+.company-input.ant-input-disabled,
+.company-input.ant-input-affix-wrapper-disabled {
+  color: var(--company-text-disabled, #aeb2b8);
+  border-color: var(--company-border, #dfe1e6);
+  background: var(--company-surface-muted, #f8f9fa);
+  cursor: not-allowed;
+}
+
+.company-input.ant-input-affix-wrapper-disabled > .ant-input,
+.company-input.ant-input-affix-wrapper-disabled .company-input__icon,
+.company-input.ant-input-affix-wrapper-disabled .company-input__label {
+  color: var(--company-text-disabled, #aeb2b8);
+}

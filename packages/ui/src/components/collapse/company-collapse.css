@@ -1,0 +1,85 @@
+.company-collapse.ant-collapse {
+  width: 800px;
+  max-width: 100%;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.company-collapse .ant-collapse-item {
+  border: 0;
+  border-radius: 0;
+}
+
+.company-collapse .ant-collapse-item > .ant-collapse-header {
+  box-sizing: border-box;
+  height: 48px;
+  min-height: 48px;
+  padding: 13px var(--company-space-24px) !important;
+  align-items: center;
+  gap: var(--company-space-12px);
+  border-bottom: 1px solid var(--company-divider, #e8eaed);
+  border-radius: 0 !important;
+  color: var(--company-text, #242933);
+  background: var(--company-surface-muted, #f8f9fa);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  transition: background-color 160ms ease;
+}
+
+.company-collapse .ant-collapse-item:not(.ant-collapse-item-disabled) > .ant-collapse-header:hover,
+.company-collapse .ant-collapse-item:not(.ant-collapse-item-disabled) > .ant-collapse-header:focus-visible {
+  background: var(--company-fill, #f2f3f5);
+}
+
+.company-collapse .ant-collapse-title,
+.company-collapse .ant-collapse-header-text {
+  min-width: 0;
+  flex: 1;
+}
+
+.company-collapse .ant-collapse-expand-icon {
+  width: 14px;
+  height: 14px;
+  padding: 0 !important;
+  display: grid;
+  place-items: center;
+  flex: 0 0 14px;
+}
+
+.company-collapse__arrow {
+  display: block;
+  color: currentColor;
+  font-size: 14px;
+  line-height: 14px;
+  transform: rotate(-90deg);
+  transition: transform 160ms ease;
+}
+
+.company-collapse__arrow.is-active { transform: rotate(0deg); }
+
+.company-collapse .ant-collapse-item-disabled > .ant-collapse-header {
+  color: var(--company-text-tertiary, #8a9099);
+  cursor: not-allowed;
+}
+
+.company-collapse .ant-collapse-panel,
+.company-collapse .ant-collapse-content {
+  border: 0;
+  border-radius: 0;
+  background: var(--company-surface, #fff);
+}
+
+.company-collapse .ant-collapse-body,
+.company-collapse .ant-collapse-content > .ant-collapse-content-box {
+  padding: var(--company-space-12px) var(--company-space-16px) !important;
+  color: var(--company-text-secondary, #525966);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.company-collapse--arrow-right .ant-collapse-panel,
+.company-collapse--arrow-right .ant-collapse-content {
+  border-bottom: 1px solid var(--company-divider, #e8eaed);
+}

@@ -1,0 +1,197 @@
+.company-time-picker {
+  --company-time-picker-height: var(--company-control-height);
+  --company-time-picker-padding: var(--company-space-12px);
+  --company-time-picker-font-size: var(--company-control-font-size);
+  --company-time-picker-line-height: var(--company-control-line-height);
+  --company-time-picker-radius: var(--company-control-radius);
+  height: var(--company-time-picker-height);
+  padding-block: 0;
+  padding-inline: var(--company-time-picker-padding);
+  gap: var(--company-space-10px);
+  border-color: var(--company-border, #dfe1e6);
+  border-radius: var(--company-time-picker-radius);
+  background: var(--company-surface, #fff);
+  box-shadow: none;
+}
+
+.company-time-picker--single { width: 200px; max-width: 100%; }
+.company-time-picker--range { width: 240px; max-width: 100%; }
+
+.company-time-picker--compact {
+  --company-time-picker-height: 24px;
+  --company-time-picker-font-size: 12px;
+  --company-time-picker-line-height: 20px;
+  --company-time-picker-radius: var(--company-radius-sm);
+}
+
+.company-time-picker--regular {
+  --company-time-picker-height: 32px;
+  --company-time-picker-font-size: 14px;
+  --company-time-picker-line-height: 22px;
+  --company-time-picker-radius: var(--company-radius-md);
+}
+
+.company-time-picker--loose {
+  --company-time-picker-height: 40px;
+  --company-time-picker-font-size: 16px;
+  --company-time-picker-line-height: 24px;
+  --company-time-picker-radius: var(--company-radius-lg);
+}
+
+.company-time-picker--single.company-time-picker--loose { width: 250px; }
+.company-time-picker--range.company-time-picker--loose { width: 320px; }
+
+.company-time-picker .ant-picker-input > input {
+  color: var(--company-text, #242933);
+  font-size: var(--company-time-picker-font-size);
+  line-height: var(--company-time-picker-line-height);
+}
+
+.company-time-picker .ant-picker-input > input::placeholder {
+  color: var(--company-text-disabled, #aeb2b8);
+}
+
+.company-time-picker .ant-picker-suffix,
+.company-time-picker .ant-picker-clear,
+.company-time-picker .ant-picker-separator {
+  width: 12px;
+  height: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--company-text-tertiary, #8a9099);
+  font-size: 12px;
+}
+
+.company-time-picker__separator-icon {
+  transform: rotate(-90deg);
+}
+
+.company-time-picker:not(.ant-picker-disabled):hover,
+.company-time-picker.is-hover,
+.company-time-picker.is-focused,
+.company-time-picker.is-typing,
+.company-time-picker.is-clear,
+.company-time-picker.ant-picker-focused {
+  border-color: var(--company-brand, #00ab7a) !important;
+  box-shadow: var(--company-focus-shadow, 0 0 0 2px #d9f4ee) !important;
+}
+
+.company-time-picker.is-clear .ant-picker-clear {
+  opacity: 1;
+}
+
+.company-time-picker.ant-picker-disabled {
+  border-color: var(--company-border, #dfe1e6);
+  background: var(--company-surface-muted, #f8f9fa);
+  box-shadow: none;
+}
+
+.company-time-picker.ant-picker-disabled .ant-picker-input > input,
+.company-time-picker.ant-picker-disabled .ant-picker-suffix,
+.company-time-picker.ant-picker-disabled .ant-picker-separator {
+  color: var(--company-text-disabled, #aeb2b8);
+}
+
+.company-time-picker-dropdown .ant-picker-panel-container {
+  border-radius: var(--company-radius-md);
+  background: var(--company-surface, #fff);
+  box-shadow: var(--company-card-shadow);
+  overflow: hidden;
+}
+
+.company-time-picker-dropdown--single .ant-picker-panel-container,
+.company-time-picker-dropdown--single .ant-picker-time-panel {
+  width: 168px;
+}
+
+.company-time-picker-dropdown--range .ant-picker-panel-container {
+  width: 340px;
+}
+
+.company-time-picker-dropdown .ant-picker-content {
+  height: 204px !important;
+  min-height: 204px !important;
+  max-height: 204px !important;
+}
+
+.company-time-picker-dropdown .ant-picker-time-panel {
+  height: 204px;
+  padding-block-start: 0;
+}
+
+.company-time-picker-dropdown .ant-picker-time-panel-column {
+  width: 56px;
+  height: 204px;
+  padding-block: var(--company-space-6px);
+  border-inline-end: 1px solid var(--company-divider, #e8eaed);
+  scrollbar-width: none;
+}
+
+.company-time-picker-dropdown .ant-picker-time-panel-column::-webkit-scrollbar {
+  display: none;
+}
+
+.company-time-picker-dropdown .ant-picker-time-panel-column:last-child {
+  border-inline-end: 0;
+}
+
+.company-time-picker-dropdown .ant-picker-time-panel-cell-inner {
+  height: 32px !important;
+  min-height: 32px !important;
+  padding: 0 var(--company-space-12px) !important;
+  border-radius: 0;
+  color: var(--company-text, #242933);
+  font-size: 14px;
+  line-height: 32px !important;
+  text-align: center;
+}
+
+.company-time-picker-dropdown .ant-picker-time-panel-cell:hover .ant-picker-time-panel-cell-inner {
+  background: var(--company-fill, #f2f3f5);
+}
+
+.company-time-picker-dropdown .ant-picker-time-panel-cell-selected .ant-picker-time-panel-cell-inner {
+  color: var(--company-brand-text, #008f67);
+  background: var(--company-brand-soft, #d9f4ee);
+}
+
+.company-time-picker-dropdown .ant-picker-footer {
+  height: 44px;
+  min-height: 44px;
+  padding: 0 !important;
+  border-top: 1px solid var(--company-divider, #e8eaed);
+}
+
+.company-time-picker-dropdown .ant-picker-ranges {
+  width: 100%;
+  height: 43px;
+  margin: 0;
+  padding: var(--company-space-10px) var(--company-space-12px) !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.company-time-picker-dropdown .ant-picker-footer-extra,
+.company-time-picker-dropdown .ant-picker-now,
+.company-time-picker-dropdown .ant-picker-ok {
+  line-height: 24px;
+}
+
+.company-time-picker-dropdown .ant-picker-ok .ant-btn,
+.company-time-picker-dropdown .ant-picker-now-btn {
+  height: 24px;
+  min-height: 24px;
+}
+
+.company-time-picker-dropdown .ant-picker-now-btn {
+  display: inline-flex;
+  align-items: center;
+  line-height: 24px;
+}
+
+.company-time-picker-dropdown--range .ant-picker-ranges {
+  justify-content: flex-end;
+}

@@ -1,0 +1,104 @@
+.company-date-picker {
+  --company-date-picker-height: var(--company-control-height);
+  --company-date-picker-padding: var(--company-space-12px);
+  --company-date-picker-font-size: var(--company-control-font-size);
+  --company-date-picker-line-height: var(--company-control-line-height);
+  --company-date-picker-radius: var(--company-control-radius);
+  height: var(--company-date-picker-height);
+  padding-block: 0;
+  padding-inline: var(--company-date-picker-padding);
+  gap: var(--company-space-8px);
+  border-color: var(--company-border, #dfe1e6);
+  border-radius: var(--company-date-picker-radius);
+  background: var(--company-surface, #fff);
+  box-shadow: none;
+}
+
+.company-date-picker--single { width: 240px; max-width: 100%; }
+.company-date-picker--range { width: 400px; max-width: 100%; }
+
+.company-date-picker--compact {
+  --company-date-picker-height: 24px;
+  --company-date-picker-padding: var(--company-space-8px);
+  --company-date-picker-font-size: 12px;
+  --company-date-picker-line-height: 20px;
+  --company-date-picker-radius: var(--company-radius-sm);
+}
+
+.company-date-picker--regular {
+  --company-date-picker-height: 32px;
+  --company-date-picker-padding: var(--company-space-12px);
+  --company-date-picker-font-size: 14px;
+  --company-date-picker-line-height: 22px;
+  --company-date-picker-radius: var(--company-radius-md);
+}
+
+.company-date-picker--loose {
+  --company-date-picker-height: 40px;
+  --company-date-picker-padding: var(--company-space-12px);
+  --company-date-picker-font-size: 16px;
+  --company-date-picker-line-height: 28px;
+  --company-date-picker-radius: var(--company-radius-lg);
+}
+
+.company-date-picker .ant-picker-input > input {
+  color: var(--company-text, #242933);
+  font-size: var(--company-date-picker-font-size);
+  line-height: var(--company-date-picker-line-height);
+}
+
+.company-date-picker .ant-picker-input > input::placeholder {
+  color: var(--company-text-disabled, #aeb2b8);
+}
+
+.company-date-picker .ant-picker-suffix,
+.company-date-picker .ant-picker-separator {
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--company-text-secondary, #525966);
+  font-size: 16px;
+}
+
+.company-date-picker:not(.ant-picker-disabled):hover,
+.company-date-picker.is-hover,
+.company-date-picker.is-focused {
+  border-color: var(--company-brand, #00ab7a) !important;
+  box-shadow: var(--company-focus-shadow, 0 0 0 2px #d9f4ee) !important;
+}
+
+.company-date-picker.ant-picker-focused {
+  border-color: var(--company-brand, #00ab7a) !important;
+  box-shadow: var(--company-focus-shadow, 0 0 0 2px #d9f4ee) !important;
+}
+
+.company-date-picker.ant-picker-disabled {
+  border-color: var(--company-divider, #e8eaed);
+  background: var(--company-surface-muted, #f8f9fa);
+}
+
+.company-date-picker.ant-picker-disabled .ant-picker-input > input,
+.company-date-picker.ant-picker-disabled .ant-picker-suffix,
+.company-date-picker.ant-picker-disabled .ant-picker-separator {
+  color: var(--company-text-disabled, #aeb2b8);
+}
+
+.company-date-picker-dropdown .ant-picker-panel-container {
+  border-radius: var(--company-radius-md);
+  background: var(--company-surface, #fff);
+  box-shadow: var(--company-card-shadow);
+  overflow: hidden;
+}
+
+.company-date-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner,
+.company-date-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner,
+.company-date-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+  color: #fff;
+  background: var(--company-brand, #00ab7a);
+}
+
+.company-date-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-in-range::before {
+  background: var(--company-brand-soft, #d9f4ee);
+}

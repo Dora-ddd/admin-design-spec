@@ -1,0 +1,188 @@
+.company-transfer {
+  width: min(100%, 528px);
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--company-space-8px);
+}
+
+.company-transfer-panel {
+  width: 240px;
+  min-width: 0;
+  height: 192px;
+  display: flex;
+  flex: 1 1 240px;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--company-border, #dfe1e6);
+  border-radius: var(--company-radius-lg);
+  background: var(--company-surface, #fff);
+}
+
+.company-transfer.has-search .company-transfer-panel {
+  height: 216px;
+}
+
+.company-transfer-panel__header,
+.company-transfer-panel__item {
+  min-width: 0;
+  height: 32px;
+  flex: 0 0 32px;
+  padding: 0 var(--company-space-12px);
+  display: flex;
+  align-items: center;
+}
+
+.company-transfer-panel__header strong {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.company-transfer-panel__search {
+  height: 56px;
+  flex: 0 0 56px;
+  padding: var(--company-space-12px);
+  background: var(--company-surface, #fff);
+}
+
+.company-transfer-panel__search .company-input.ant-input-affix-wrapper {
+  height: 32px;
+  padding-inline: var(--company-space-12px) var(--company-space-8px);
+  border-color: transparent;
+  border-radius: var(--company-radius-md);
+  background: var(--company-surface-muted, #f8f9fa);
+}
+
+.company-transfer-panel__search .company-input.ant-input-affix-wrapper:hover {
+  border-color: var(--company-brand-hover, #1db887);
+}
+
+.company-transfer-panel__search .company-input.ant-input-affix-wrapper-focused {
+  border-color: var(--company-brand, #00ab7a);
+  box-shadow: var(--company-focus-shadow, 0 0 0 2px #d9f4ee);
+}
+
+.company-transfer-panel__search .company-input__icon,
+.company-transfer-panel__search .company-icon {
+  width: 16px;
+  height: 16px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.company-transfer-panel__list {
+  min-height: 0;
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-color: rgba(0, 0, 0, .15) transparent;
+  scrollbar-width: thin;
+}
+
+.company-transfer-panel__list::-webkit-scrollbar {
+  width: 4px;
+}
+
+.company-transfer-panel__list::-webkit-scrollbar-thumb {
+  border-radius: var(--company-radius-full);
+  background: rgba(0, 0, 0, .15);
+}
+
+.company-transfer-panel__item {
+  color: var(--company-text, #242933);
+  cursor: pointer;
+}
+
+.company-transfer-panel__item:hover:not(.is-disabled) {
+  background: var(--company-surface-muted, #f8f9fa);
+}
+
+.company-transfer-panel__item.is-disabled,
+.company-transfer-panel.is-disabled .company-transfer-panel__item {
+  color: var(--company-text-disabled, #aeb2b8);
+  cursor: not-allowed;
+}
+
+.company-transfer-panel__item .company-checkbox.ant-checkbox-wrapper {
+  width: 100%;
+  min-width: 0;
+}
+
+.company-transfer-panel__item .company-checkbox.ant-checkbox-wrapper > span:last-child {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.company-transfer-panel__empty {
+  min-height: 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--company-space-8px);
+  color: var(--company-text-tertiary, #8a9099);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.company-transfer-panel__empty img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.company-transfer__operations {
+  width: 32px;
+  flex: 0 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--company-space-16px);
+}
+
+.company-transfer__operations .company-button.ant-btn {
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+  padding: var(--company-space-8px);
+  border-radius: var(--company-radius-md);
+}
+
+.company-transfer__arrow.is-right {
+  transform: rotate(-90deg);
+}
+
+.company-transfer__arrow.is-left {
+  transform: rotate(90deg);
+}
+
+@media (max-width: 680px) {
+  .company-transfer {
+    width: 100%;
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .company-transfer-panel {
+    width: 100%;
+    flex-basis: 192px;
+  }
+
+  .company-transfer__operations {
+    width: 100%;
+    flex-direction: row;
+    gap: var(--company-space-16px);
+  }
+
+  .company-transfer__arrow.is-right {
+    transform: rotate(0deg);
+  }
+
+  .company-transfer__arrow.is-left {
+    transform: rotate(180deg);
+  }
+}

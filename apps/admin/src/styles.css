@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+html, body, #root { min-width: 320px; min-height: 100%; margin: 0; }
+body { color: var(--company-text, #242933); background: var(--company-page-bg, #f8f9fa); font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+
+.admin-app { width: 100%; min-height: 100vh; }
+.admin-business-layout.company-business-layout { min-width: 0; height: 100vh; grid-template-columns: 216px minmax(0, 1fr); border: 0; border-radius: 0; }
+.admin-business-layout .company-business-layout__main { grid-template-rows: 56px minmax(0, 1fr); }
+.admin-business-layout .company-business-layout__content { padding: var(--company-space-16px); }
+.admin-navigation { height: 100%; background: var(--company-surface, #fff); }
+.admin-navigation__brand { height: 56px; padding: 0 var(--company-space-24px); display: flex; align-items: center; border-bottom: 1px solid var(--company-divider, #e8eaed); }
+.admin-navigation .ant-menu { padding: var(--company-space-8px); border-inline-end: 0 !important; }
+.admin-page-header.company-page-header { height: 56px; border: 0; border-radius: 0; }
+.admin-business-surface { min-height: 100%; display: grid; place-items: center; }

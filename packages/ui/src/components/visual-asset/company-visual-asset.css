@@ -1,0 +1,30 @@
+.company-visual-asset-gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(96px, 1fr));
+  gap: var(--company-space-16px);
+}
+
+.company-visual-asset {
+  min-width: 0;
+  margin: 0;
+  padding: var(--company-space-12px);
+  display: grid;
+  justify-items: center;
+  gap: var(--company-space-8px);
+  border: 1px solid var(--company-divider, #e8eaed);
+  border-radius: var(--company-container-radius);
+  background: var(--company-surface, #fff);
+}
+
+.company-visual-asset img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.company-visual-asset figcaption {
+  color: var(--company-text-secondary, #525966);
+  font-size: 12px;
+  line-height: 20px;
+}

@@ -1,0 +1,117 @@
+.company-tree.ant-tree {
+  width: 216px;
+  max-width: 100%;
+  color: var(--company-text, #242933);
+  background: transparent;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.company-tree .ant-tree-list-holder-inner {
+  align-items: stretch;
+}
+
+.company-tree .ant-tree-treenode {
+  min-height: 32px;
+  padding: 0;
+  align-items: center;
+}
+
+.company-tree .ant-tree-treenode:not([aria-hidden="true"]) {
+  width: 100%;
+}
+
+.company-tree .ant-tree-treenode[aria-hidden="true"] {
+  width: 0;
+  min-height: 0;
+}
+
+.company-tree .ant-tree-indent-unit {
+  width: var(--company-space-24px);
+}
+
+.company-tree .ant-tree-switcher {
+  width: 12px;
+  height: 32px;
+  margin-right: var(--company-space-8px);
+  display: inline-flex;
+  flex: 0 0 12px;
+  align-items: center;
+  justify-content: center;
+  color: var(--company-text-tertiary, #8a9099);
+  line-height: 32px;
+}
+
+.company-tree__switcher-icon {
+  width: 12px;
+  height: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 12px;
+  transform: rotate(-90deg);
+  transition: transform 160ms ease;
+}
+
+.company-tree .ant-tree-switcher_open .company-tree__switcher-icon {
+  transform: rotate(0deg);
+}
+
+.company-tree .ant-tree-switcher-noop .company-tree__switcher-icon {
+  visibility: hidden;
+}
+
+.company-tree .ant-tree-checkbox {
+  width: 16px;
+  height: 16px;
+  margin: 0 var(--company-space-8px) 0 0;
+  flex: 0 0 16px;
+}
+
+.company-tree .ant-tree-checkbox-inner {
+  width: 16px;
+  height: 16px;
+}
+
+.company-tree .ant-tree-node-content-wrapper {
+  min-width: 0;
+  min-height: 32px;
+  padding: var(--company-space-5px) var(--company-space-4px);
+  display: flex;
+  flex: 1;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 0;
+  color: var(--company-text, #242933);
+  line-height: 22px;
+  transition: background-color 160ms ease;
+}
+
+.company-tree .ant-tree-title {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.company-tree .ant-tree-node-content-wrapper:hover {
+  background: var(--company-fill, #f2f3f5);
+}
+
+.company-tree .ant-tree-node-content-wrapper.ant-tree-node-selected,
+.company-tree .ant-tree-node-content-wrapper.ant-tree-node-selected:hover {
+  background: var(--company-brand-soft, #d9f4ee);
+}
+
+.company-tree .ant-tree-treenode-disabled .ant-tree-node-content-wrapper,
+.company-tree.ant-tree-disabled .ant-tree-node-content-wrapper,
+.company-tree .ant-tree-switcher-disabled {
+  color: var(--company-text-tertiary, #8a9099);
+  cursor: not-allowed;
+}
+
+.company-tree .ant-tree-treenode:focus-within .ant-tree-node-content-wrapper {
+  outline: 2px solid var(--company-brand, #00ab7a);
+  outline-offset: -2px;
+}

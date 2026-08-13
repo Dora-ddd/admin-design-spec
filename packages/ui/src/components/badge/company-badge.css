@@ -1,0 +1,22 @@
+.company-badge .ant-badge-count {
+  min-width: 20px;
+  height: 20px;
+  padding: 0 var(--company-space-6px);
+  border: 0;
+  border-radius: var(--company-radius-full);
+  color: #fff;
+  background: var(--company-danger, #f0131e);
+  box-shadow: none;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.company-badge .ant-badge-dot {
+  width: 8px;
+  min-width: 8px;
+  height: 8px;
+  border-radius: var(--company-radius-circle);
+  background: var(--company-danger, #f0131e);
+  box-shadow: none;
+}

@@ -1,0 +1,35 @@
+.company-loading-ring {
+  width: var(--company-loading-ring-size);
+  height: var(--company-loading-ring-size);
+  display: inline-block;
+  flex: 0 0 auto;
+  position: relative;
+  vertical-align: middle;
+}
+
+.company-loading-ring::before,
+.company-loading-ring::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  box-sizing: border-box;
+  border-radius: var(--company-radius-circle);
+}
+
+.company-loading-ring::before {
+  border: var(--company-loading-ring-stroke) solid var(--company-loading-ring-track);
+}
+
+.company-loading-ring::after {
+  border: var(--company-loading-ring-stroke) solid transparent;
+  border-top-color: var(--company-loading-ring-color);
+  animation: company-loading-ring-spin var(--company-loading-ring-duration) linear infinite;
+}
+
+@keyframes company-loading-ring-spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .company-loading-ring::after { animation-duration: var(--company-loading-ring-reduced-duration); }
+}

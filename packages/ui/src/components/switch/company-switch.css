@@ -1,0 +1,71 @@
+.company-switch.ant-switch {
+  min-width: 44px;
+  width: 44px;
+  height: 22px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--company-radius-full);
+  background: var(--company-text-disabled);
+  box-shadow: none;
+  vertical-align: middle;
+}
+
+.company-switch.ant-switch-checked {
+  background: var(--company-brand);
+}
+
+.company-switch.ant-switch:not(.ant-switch-disabled):hover {
+  background: var(--company-text-tertiary);
+}
+
+.company-switch.ant-switch-checked:not(.ant-switch-disabled):hover {
+  background: var(--company-brand-hover);
+}
+
+.company-switch.ant-switch:focus-visible {
+  box-shadow: var(--company-focus-shadow);
+}
+
+.company-switch .ant-switch-handle {
+  width: 18px;
+  height: 18px;
+  inset-block-start: 2px;
+  inset-inline-start: 2px;
+}
+
+.company-switch.ant-switch-checked .ant-switch-handle {
+  inset-inline-start: calc(100% - 20px);
+}
+
+.company-switch .ant-switch-handle::before {
+  border-radius: var(--company-radius-circle);
+  background: var(--company-surface);
+  box-shadow: none;
+}
+
+.company-switch--small.ant-switch {
+  min-width: 28px;
+  width: 28px;
+  height: 16px;
+}
+
+.company-switch--small .ant-switch-handle {
+  width: 12px;
+  height: 12px;
+  inset-block-start: 2px;
+  inset-inline-start: 2px;
+}
+
+.company-switch--small.ant-switch-checked .ant-switch-handle {
+  inset-inline-start: calc(100% - 14px);
+}
+
+.company-switch.ant-switch-disabled {
+  cursor: not-allowed;
+  opacity: 1;
+  background: var(--company-divider);
+}
+
+.company-switch.ant-switch-checked.ant-switch-disabled {
+  background: var(--company-brand-light);
+}

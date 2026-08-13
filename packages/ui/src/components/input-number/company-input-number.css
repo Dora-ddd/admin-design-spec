@@ -1,0 +1,153 @@
+.company-input-number-field {
+  width: 200px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.company-input-number {
+  --company-input-number-height: var(--company-control-height);
+  --company-input-number-padding: var(--company-space-12px);
+  --company-input-number-font-size: var(--company-control-font-size);
+  --company-input-number-line-height: var(--company-control-line-height);
+  --company-input-number-radius: var(--company-control-radius);
+  --company-input-number-handler-width: calc(var(--company-input-number-height) - 4px);
+}
+
+.company-input-number--compact {
+  --company-input-number-height: 24px;
+  --company-input-number-padding: var(--company-space-8px);
+  --company-input-number-font-size: 12px;
+  --company-input-number-line-height: 20px;
+  --company-input-number-radius: var(--company-radius-sm);
+}
+
+.company-input-number--regular {
+  --company-input-number-height: 32px;
+  --company-input-number-padding: var(--company-space-12px);
+  --company-input-number-font-size: 14px;
+  --company-input-number-line-height: 22px;
+  --company-input-number-radius: var(--company-radius-md);
+}
+
+.company-input-number--loose {
+  --company-input-number-height: 40px;
+  --company-input-number-padding: var(--company-space-12px);
+  --company-input-number-font-size: 16px;
+  --company-input-number-line-height: 28px;
+  --company-input-number-radius: var(--company-radius-lg);
+}
+
+.company-input-number.ant-input-number {
+  width: 100%;
+  height: var(--company-input-number-height);
+  border-color: var(--company-border, #dfe1e6);
+  border-radius: var(--company-input-number-radius);
+  background: var(--company-surface, #fff);
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.company-input-number .ant-input-number-input-wrap,
+.company-input-number .ant-input-number-input {
+  height: 100%;
+}
+
+.company-input-number .ant-input-number-input {
+  padding: 0 var(--company-input-number-padding);
+  color: var(--company-text, #242933);
+  font-size: var(--company-input-number-font-size);
+  line-height: var(--company-input-number-line-height);
+}
+
+.company-input-number .ant-input-number-input::placeholder {
+  color: var(--company-text-disabled, #aeb2b8);
+}
+
+.company-input-number .ant-input-number-actions,
+.company-input-number .ant-input-number-handler-wrap {
+  width: var(--company-input-number-handler-width);
+  border-inline-start-color: var(--company-divider, #e8eaed);
+  background: var(--company-surface, #fff);
+  opacity: 0;
+}
+
+.company-input-number .ant-input-number-actions {
+  height: calc(100% - 2px);
+  inset-block-start: 1px;
+  inset-inline-end: 1px;
+  border-inline-start: 1px solid var(--company-divider, #e8eaed);
+  border-start-end-radius: calc(var(--company-input-number-radius) - 1px);
+  border-end-end-radius: calc(var(--company-input-number-radius) - 1px);
+  overflow: hidden;
+}
+
+.company-input-number .ant-input-number-action,
+.company-input-number .ant-input-number-handler {
+  color: var(--company-text-secondary, #525966);
+  border-block-end-color: var(--company-divider, #e8eaed);
+}
+
+.company-input-number .ant-input-number-action:first-child {
+  border-block-end: 1px solid var(--company-divider, #e8eaed);
+}
+
+.company-input-number .ant-input-number-action .company-icon,
+.company-input-number .ant-input-number-handler .company-icon {
+  font-size: 12px;
+}
+
+.company-input-number__up-icon {
+  transform: rotate(180deg);
+}
+
+.company-input-number.ant-input-number:not(.ant-input-number-disabled):hover,
+.company-input-number.is-hover,
+.company-input-number.is-focused,
+.company-input-number.is-typing,
+.company-input-number.is-stepper {
+  border-color: var(--company-brand, #00ab7a) !important;
+  box-shadow: var(--company-focus-shadow, 0 0 0 2px #d9f4ee) !important;
+}
+
+.company-input-number.ant-input-number:not(.ant-input-number-disabled):hover .ant-input-number-actions,
+.company-input-number.ant-input-number:not(.ant-input-number-disabled):hover .ant-input-number-handler-wrap,
+.company-input-number.is-hover .ant-input-number-actions,
+.company-input-number.is-hover .ant-input-number-handler-wrap,
+.company-input-number.is-focused .ant-input-number-actions,
+.company-input-number.is-focused .ant-input-number-handler-wrap,
+.company-input-number.is-typing .ant-input-number-actions,
+.company-input-number.is-typing .ant-input-number-handler-wrap,
+.company-input-number.is-stepper .ant-input-number-actions,
+.company-input-number.is-stepper .ant-input-number-handler-wrap,
+.company-input-number.is-error .ant-input-number-actions,
+.company-input-number.is-error .ant-input-number-handler-wrap {
+  opacity: 1;
+}
+
+.company-input-number.ant-input-number-focused {
+  border-color: var(--company-brand, #00ab7a) !important;
+  box-shadow: var(--company-focus-shadow, 0 0 0 2px #d9f4ee) !important;
+}
+
+.company-input-number.ant-input-number-disabled {
+  border-color: var(--company-divider, #e8eaed);
+  background: var(--company-surface-muted, #f8f9fa);
+}
+
+.company-input-number.ant-input-number-disabled .ant-input-number-input {
+  color: var(--company-text-disabled, #aeb2b8);
+}
+
+.company-input-number.is-error.ant-input-number,
+.company-input-number.ant-input-number-status-error {
+  border-color: var(--company-danger, #f0131e) !important;
+  box-shadow: none !important;
+}
+
+.company-input-number__error {
+  color: var(--company-danger-text, #c90616);
+  font-size: 12px;
+  line-height: 20px;
+}

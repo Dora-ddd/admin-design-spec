@@ -1,0 +1,19 @@
+.company-tooltip { --antd-arrow-background-color: var(--company-tooltip-bg, #242933); }
+.company-tooltip .ant-tooltip-container,
+.company-tooltip .ant-tooltip-inner {
+  min-width: 112px;
+  min-height: 32px;
+  box-sizing: border-box;
+  padding: var(--company-space-6px) var(--company-space-12px);
+  border-radius: var(--company-radius-md);
+  color: var(--company-tooltip-text, #fff);
+  background: var(--company-tooltip-bg, #242933);
+  box-shadow: none;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.company-tooltip .ant-tooltip-arrow::before,
+.company-tooltip .ant-tooltip-arrow::after { background: var(--company-tooltip-bg, #242933); }

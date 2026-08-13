@@ -1,0 +1,38 @@
+.company-surface {
+  min-width: 0;
+  color: var(--company-text, #242933);
+  border-radius: var(--company-container-radius);
+}
+
+.company-surface-page {
+  background: var(--company-page-bg, #f8f9fa);
+}
+
+.company-surface-content {
+  background: var(--company-surface-muted, #f2f3f5);
+}
+
+.company-surface-business {
+  background: var(--company-surface, #fff);
+}
+
+.company-surface-with-indicator {
+  min-height: 84px;
+  padding: var(--company-space-16px);
+  display: flex;
+  align-items: center;
+  gap: var(--company-space-12px);
+}
+
+.company-surface__indicator {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  border-radius: var(--company-radius-lg);
+  background: var(--company-brand-soft, #d9f4ee);
+  box-shadow: inset 0 0 0 1px var(--company-brand-light, #b4eadc);
+}
+
+.company-surface__content {
+  min-width: 0;
+}

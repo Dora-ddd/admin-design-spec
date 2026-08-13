@@ -1,0 +1,78 @@
+.company-checkbox.ant-checkbox-wrapper {
+  min-height: 22px;
+  align-items: center;
+  color: var(--company-text, #242933);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.company-checkbox .ant-checkbox {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  align-self: center;
+  top: 0;
+  border: 1px solid var(--company-border, #dfe1e6) !important;
+  border-radius: 4px !important;
+  background: var(--company-surface, #fff) !important;
+}
+
+.company-checkbox.ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox,
+.company-checkbox.is-hover .ant-checkbox {
+  border-color: var(--company-brand, #00ab7a) !important;
+}
+
+.company-checkbox .ant-checkbox-checked:not(.ant-checkbox-disabled) {
+  border-color: var(--company-brand, #00ab7a) !important;
+  background: var(--company-brand, #00ab7a) !important;
+}
+
+.company-checkbox .ant-checkbox-checked::after {
+  border-color: var(--company-surface, #fff) !important;
+}
+
+.company-checkbox .ant-checkbox-indeterminate {
+  border-color: var(--company-brand, #00ab7a) !important;
+  background: var(--company-surface, #fff) !important;
+}
+
+.company-checkbox .ant-checkbox-indeterminate::after {
+  width: 8px;
+  height: 2px;
+  inset-inline-start: 50%;
+  top: 50%;
+  border: 0;
+  border-radius: 1px;
+  background: var(--company-brand, #00ab7a);
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.company-checkbox .ant-checkbox-disabled {
+  border-color: var(--company-border, #dfe1e6) !important;
+  background: var(--company-surface-muted, #f8f9fa) !important;
+}
+
+.company-checkbox .ant-checkbox-disabled.ant-checkbox-checked,
+.company-checkbox .ant-checkbox-disabled.ant-checkbox-indeterminate {
+  border-color: var(--company-surface, #fff) !important;
+  background: var(--company-surface, #fff) !important;
+}
+
+.company-checkbox .ant-checkbox-disabled.ant-checkbox-checked::after {
+  border-color: var(--company-text-disabled, #aeb2b8) !important;
+}
+
+.company-checkbox .ant-checkbox-disabled.ant-checkbox-indeterminate::after {
+  background: var(--company-text-disabled, #aeb2b8) !important;
+}
+
+.company-checkbox.ant-checkbox-wrapper > span:last-child {
+  padding-inline: 8px 0;
+}
+
+.company-checkbox-group.ant-checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+}

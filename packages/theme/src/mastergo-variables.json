@@ -1,0 +1,6716 @@
+[
+  {
+    "id": "11889:095962",
+    "collection": "组件变量集合",
+    "name": "投影/超级框hover阴影",
+    "type": "EFFECT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "0px 4px 12px 0px rgba(183, 179, 255, 0.5)"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "0px 4px 12px 0px rgba(183, 179, 255, 0.5)"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "0px 4px 12px 0px rgba(183, 179, 255, 0.5)"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "0px 4px 12px 0px rgba(183, 179, 255, 0.5)"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "0px 4px 12px 0px rgba(183, 179, 255, 0.5)"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "0px 4px 12px 0px rgba(183, 179, 255, 0.5)"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "0px 4px 12px 0px rgba(183, 179, 255, 0.5)"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "0px 4px 12px 0px rgba(183, 179, 255, 0.5)"
+      }
+    ]
+  },
+  {
+    "id": "0:147",
+    "collection": "组件变量集合",
+    "name": "Brand 品牌/p1",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#d9f4ee"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#d9f4ee"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#f0f7ff"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#111f1c"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#141a30"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#f0f7ff"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#141a30"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#111f1c"
+      }
+    ],
+    "description": "部分组件选中态填充色、图形化配色"
+  },
+  {
+    "id": "0:160",
+    "collection": "组件变量集合",
+    "name": "Gray 中性/gray-1",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#ffffff"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#ffffff"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#ffffff"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#050505"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#050505"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#ffffff"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#050505"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#050505"
+      }
+    ]
+  },
+  {
+    "id": "62:24385",
+    "collection": "组件变量集合",
+    "name": "text&iocn/P6",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#00ab7a"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#00ab7a"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#356dee"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#00ab7a"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#356dee"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#356dee"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#356dee"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#00ab7a"
+      }
+    ]
+  },
+  {
+    "id": "80:22368",
+    "collection": "组件变量集合",
+    "name": "text&iocn/P7",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#039972"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#039972"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#224ec7"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#00cc92"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#5886e4"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#224ec7"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#5886e4"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#00cc92"
+      }
+    ]
+  },
+  {
+    "id": "80:22348",
+    "collection": "组件变量集合",
+    "name": "text&iocn/Blue-7",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#096dd9"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#096dd9"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#096dd9"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#4aa8ff"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#4aa8ff"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#096dd9"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#4aa8ff"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#4aa8ff"
+      }
+    ]
+  },
+  {
+    "id": "62:23691",
+    "collection": "组件变量集合",
+    "name": "text&iocn/gray-6",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#aeb2b8"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#aeb2b8"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#aeb2b8"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#5a606b"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#5a606b"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#5a606b"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#5a606b"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#5a606b"
+      }
+    ]
+  },
+  {
+    "id": "62:23687",
+    "collection": "组件变量集合",
+    "name": "text&iocn/gray-7",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#8a9099"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#8a9099"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#8a9099"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#767f8c"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#767f8c"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#767f8c"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#767f8c"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#767f8c"
+      }
+    ]
+  },
+  {
+    "id": "62:23683",
+    "collection": "组件变量集合",
+    "name": "text&iocn/gray-8",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#525966"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#525966"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#525966"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#a6b0bd"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#a6b0bd"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#a6b0bd"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#a6b0bd"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#a6b0bd"
+      }
+    ]
+  },
+  {
+    "id": "62:23680",
+    "collection": "组件变量集合",
+    "name": "text&iocn/gray-9",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#242933"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#242933"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#242933"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#c3ccd9"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#c3ccd9"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#c3ccd9"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#c3ccd9"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#c3ccd9"
+      }
+    ]
+  },
+  {
+    "id": "0:224",
+    "collection": "组件变量集合",
+    "name": "Fatal 致命/Deep red-1",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#fce7e3"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#fce7e3"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#fce7e3"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#230904"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#230904"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#fce7e3"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#230904"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#230904"
+      }
+    ]
+  },
+  {
+    "id": "0:151",
+    "collection": "组件变量集合",
+    "name": "Fatal 致命/Deep red-2",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#f0a399"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#f0a399"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#f0a399"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#f0a399"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#f0a399"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#f0a399"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#f0a399"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#f0a399"
+      }
+    ]
+  },
+  {
+    "id": "0:173",
+    "collection": "组件变量集合",
+    "name": "Fatal 致命/Deep red-6",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#bc0004"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#bc0004"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#bc0004"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#bc0004"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#bc0004"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#bc0004"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#bc0004"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#bc0004"
+      }
+    ]
+  },
+  {
+    "id": "38:30110",
+    "collection": "组件变量集合",
+    "name": "Fatal 致命/Deep red-7",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#960008"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#960008"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#960008"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#960008"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#960008"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#960008"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#960008"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#960008"
+      }
+    ]
+  },
+  {
+    "id": "38:30348",
+    "collection": "组件变量集合",
+    "name": "Serious 严重/Red-1",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#ffe8e6"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#ffe8e6"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#ffe8e6"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#431418"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#431418"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#ffe8e6"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#431418"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#431418"
+      }
+    ]
+  },
+  {
+    "id": "38:31607",
+    "collection": "组件变量集合",
+    "name": "Serious 严重/Red-2",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#ffbeb8"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#ffbeb8"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#ffbeb8"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#a61d24"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#a61d24"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#ffbeb8"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#a61d24"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#a61d24"
+      }
+    ]
+  },
+  {
+    "id": "38:31138",
+    "collection": "组件变量集合",
+    "name": "Serious 严重/Red-3",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#ff948f"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#ff948f"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#ff948f"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#ff948f"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#ff948f"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#ff948f"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#ff948f"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#ff948f"
+      }
+    ]
+  },
+  {
+    "id": "77:30840",
+    "collection": "组件变量集合",
+    "name": "Serious 严重/Red-5",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#fc3d40"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#fc3d40"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#fc3d40"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#fc3d40"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#fc3d40"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#fc3d40"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#fc3d40"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#fc3d40"
+      }
+    ]
+  },
+  {
+    "id": "38:31145",
+    "collection": "组件变量集合",
+    "name": "Serious 严重/Red-6",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#f0131e"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#f0131e"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#f0131e"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#f5222d"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#f5222d"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#f0131e"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#f5222d"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#f5222d"
+      }
+    ]
+  },
+  {
+    "id": "38:30360",
+    "collection": "组件变量集合",
+    "name": "Serious 严重/Red-7",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#c90616"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#c90616"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#c90616"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#f5222d"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#f5222d"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#c90616"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#f5222d"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#f5222d"
+      }
+    ]
+  },
+  {
+    "id": "38:31210",
+    "collection": "组件变量集合",
+    "name": "High risk 高危/Orange red-1",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#fff3e6"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#fff3e6"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#fff3e6"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#431418"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#431418"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#fff3e6"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#431418"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#431418"
+      }
+    ]
+  },
+  {
+    "id": "38:31225",
+    "collection": "组件变量集合",
+    "name": "High risk 高危/Orange red-3",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#ffbc85"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#ffbc85"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#ffbc85"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#ffbc85"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#ffbc85"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#ffbc85"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#ffbc85"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#ffbc85"
+      }
+    ]
+  },
+  {
+    "id": "38:31237",
+    "collection": "组件变量集合",
+    "name": "High risk 高危/Orange red-6",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#f05a0a"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#f05a0a"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#f05a0a"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#f05a0a"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#f05a0a"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#f05a0a"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#f05a0a"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#f05a0a"
+      }
+    ]
+  },
+  {
+    "id": "38:31243",
+    "collection": "组件变量集合",
+    "name": "High risk 高危/Orange red-7",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#c94000"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#c94000"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#c94000"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#c94000"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#c94000"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#c94000"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#c94000"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#c94000"
+      }
+    ]
+  },
+  {
+    "id": "38:31253",
+    "collection": "组件变量集合",
+    "name": "Medium risk 警告/Orange-1",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#fff8e6"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#fff8e6"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#fff8e6"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#442a11"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#442a11"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#fff8e6"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#442a11"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#442a11"
+      }
+    ]
+  },
+  {
+    "id": "38:31266",
+    "collection": "组件变量集合",
+    "name": "Medium risk 警告/Orange-4",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#ffc054"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#ffc054"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#ffc054"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#7c4a15"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#7c4a15"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#ffc054"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#7c4a15"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#7c4a15"
+      }
+    ]
+  },
+  {
+    "id": "38:31269",
+    "collection": "组件变量集合",
+    "name": "Medium risk 警告/Orange-6",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#f58a02"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#f58a02"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#f58a02"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#fa8c16"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#fa8c16"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#f58a02"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#fa8c16"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#fa8c16"
+      }
+    ]
+  },
+  {
+    "id": "38:31274",
+    "collection": "组件变量集合",
+    "name": "Medium risk 警告/Orange-7",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#cf6e00"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#cf6e00"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#cf6e00"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#fa8c16"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#fa8c16"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#cf6e00"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#fa8c16"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#fa8c16"
+      }
+    ]
+  },
+  {
+    "id": "38:31284",
+    "collection": "组件变量集合",
+    "name": "Low risk 低危/Yellow-1",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#ffffe6"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#ffffe6"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#ffffe6"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#404005"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#404005"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#ffffe6"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#404005"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#404005"
+      }
+    ]
+  },
+  {
+    "id": "38:31299",
+    "collection": "组件变量集合",
+    "name": "Low risk 低危/Yellow-5",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#ebd426"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#ebd426"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#ebd426"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#ebd426"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#ebd426"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#ebd426"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#ebd426"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#ebd426"
+      }
+    ]
+  },
+  {
+    "id": "38:31302",
+    "collection": "组件变量集合",
+    "name": "Low risk 低危/Yellow-6",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#dfbc00"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#dfbc00"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#dfbc00"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#dfbc00"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#dfbc00"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#dfbc00"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#dfbc00"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#dfbc00"
+      }
+    ]
+  },
+  {
+    "id": "38:31305",
+    "collection": "组件变量集合",
+    "name": "Low risk 低危/Yellow-7",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#b89600"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#b89600"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#b89600"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#b89600"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#b89600"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#b89600"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#b89600"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#b89600"
+      }
+    ]
+  },
+  {
+    "id": "38:31311",
+    "collection": "组件变量集合",
+    "name": "Success 安全/Green-1",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#eff8ee"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#eff8ee"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#eff8ee"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#1f2611"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#1f2611"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#eff8ee"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#1f2611"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#1f2611"
+      }
+    ]
+  },
+  {
+    "id": "38:31321",
+    "collection": "组件变量集合",
+    "name": "Success 安全/Green-3",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#bce0b4"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#bce0b4"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#bce0b4"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#536d13"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#536d13"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#bce0b4"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#536d13"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#536d13"
+      }
+    ]
+  },
+  {
+    "id": "38:31326",
+    "collection": "组件变量集合",
+    "name": "Success 安全/Green-6",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#52c41a"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#52c41a"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#52c41a"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#52c41a"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#52c41a"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#52c41a"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#52c41a"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#52c41a"
+      }
+    ]
+  },
+  {
+    "id": "sa2511:79265",
+    "collection": "组件变量集合",
+    "name": "Success 安全/Green-7",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#389e0d"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#389e0d"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#389e0d"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#52c41a"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#52c41a"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#389e0d"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#52c41a"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#52c41a"
+      }
+    ]
+  },
+  {
+    "id": "38:31360",
+    "collection": "组件变量集合",
+    "name": "Reminder 提醒/Blue-1",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#e6f7ff"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#e6f7ff"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#e6f7ff"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#112a45"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#112a45"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#e6f7ff"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#112a45"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#112a45"
+      }
+    ]
+  },
+  {
+    "id": "38:31363",
+    "collection": "组件变量集合",
+    "name": "Reminder 提醒/Blue-3",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#91d5ff"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#91d5ff"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#91d5ff"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#164c7e"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#164c7e"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#91d5ff"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#164c7e"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#164c7e"
+      }
+    ]
+  },
+  {
+    "id": "12885:055963",
+    "collection": "组件变量集合",
+    "name": "Reminder 提醒/Blue4",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#69c0ff"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#69c0ff"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#69c0ff"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#40a9ff"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#40a9ff"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#69c0ff"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#40a9ff"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#40a9ff"
+      }
+    ]
+  },
+  {
+    "id": "77:31083",
+    "collection": "组件变量集合",
+    "name": "Reminder 提醒/Blue-5",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#40a9ff"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#40a9ff"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#40a9ff"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#40a9ff"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#40a9ff"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#40a9ff"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#40a9ff"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#40a9ff"
+      }
+    ]
+  },
+  {
+    "id": "38:31376",
+    "collection": "组件变量集合",
+    "name": "Reminder 提醒/Blue-6",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#1890ff"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#1890ff"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#1890ff"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#1890ff"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#1890ff"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#1890ff"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#1890ff"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#1890ff"
+      }
+    ]
+  },
+  {
+    "id": "38:31379",
+    "collection": "组件变量集合",
+    "name": "Reminder 提醒/Blue-7",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#096dd9"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#096dd9"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#096dd9"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#4aa8ff"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#4aa8ff"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#096dd9"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#4aa8ff"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#4aa8ff"
+      }
+    ]
+  },
+  {
+    "id": "38:31382",
+    "collection": "组件变量集合",
+    "name": "Reminder 提醒/Blue-8",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#0050b3"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#0050b3"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#0050b3"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#0050b3"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#0050b3"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#0050b3"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#0050b3"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#0050b3"
+      }
+    ]
+  },
+  {
+    "id": "0:158",
+    "collection": "组件变量集合",
+    "name": "Gray 中性/gray-2",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#f8f9fa"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#f8f9fa"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#f8f9fa"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#14151c"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#14151c"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#f8f9fa"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#14151c"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#14151c"
+      }
+    ]
+  },
+  {
+    "id": "0:170",
+    "collection": "组件变量集合",
+    "name": "Gray 中性/gray-3白背景hover",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#f2f3f5"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#f2f3f5"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#f2f3f5"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#1c1e26"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#1c1e26"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#f2f3f5"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#1c1e26"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#1c1e26"
+      }
+    ]
+  },
+  {
+    "id": "0:159",
+    "collection": "组件变量集合",
+    "name": "Gray 中性/gray-4-分割线",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#e8eaed"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#e8eaed"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#e8eaed"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#2c2f3b"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#2c2f3b"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#e8eaed"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#2c2f3b"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#2c2f3b"
+      }
+    ]
+  },
+  {
+    "id": "0:169",
+    "collection": "组件变量集合",
+    "name": "Gray 中性/gray-5-边框",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#dfe1e6"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#dfe1e6"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#dfe1e6"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#3e4352"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#3e4352"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#dfe1e6"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#3e4352"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#3e4352"
+      }
+    ]
+  },
+  {
+    "id": "0:157",
+    "collection": "组件变量集合",
+    "name": "Gray 中性/gray-6-禁用",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#aeb2b8"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#aeb2b8"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#aeb2b8"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#5a606b"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#5a606b"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#aeb2b8"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#5a606b"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#5a606b"
+      }
+    ]
+  },
+  {
+    "id": "0:156",
+    "collection": "组件变量集合",
+    "name": "Gray 中性/gray-7",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#8a9099"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#8a9099"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#8a9099"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#767f8c"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#767f8c"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#8a9099"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#767f8c"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#767f8c"
+      }
+    ]
+  },
+  {
+    "id": "0:155",
+    "collection": "组件变量集合",
+    "name": "Gray 中性/gray-8",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#525966"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#525966"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#525966"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#9da6b2"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#9da6b2"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#525966"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#9da6b2"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#9da6b2"
+      }
+    ]
+  },
+  {
+    "id": "0:154",
+    "collection": "组件变量集合",
+    "name": "Gray 中性/gray-9",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#242933"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#242933"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#242933"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#c3ccd9"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#c3ccd9"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#242933"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#c3ccd9"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#c3ccd9"
+      }
+    ]
+  },
+  {
+    "id": "0:161",
+    "collection": "组件变量集合",
+    "name": "Gray 中性/gray-10",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#000000"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#000000"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#000000"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#f0f4fa"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#f0f4fa"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#000000"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#f0f4fa"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#f0f4fa"
+      }
+    ]
+  },
+  {
+    "id": "0:146",
+    "collection": "组件变量集合",
+    "name": "Brand 品牌/p2",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#b9f7e2"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#b9f7e2"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#dbebff"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#0f3028"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#182347"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#dbebff"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#182347"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#0f3028"
+      }
+    ],
+    "description": "图形化配色"
+  },
+  {
+    "id": "0:145",
+    "collection": "组件变量集合",
+    "name": "Brand 品牌/p3",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#71edc2"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#71edc2"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#b3d1ff"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#0e4133"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#1e2f5b"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#b3d1ff"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#1e2f5b"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#0e4133"
+      }
+    ],
+    "description": "图形化配色"
+  },
+  {
+    "id": "0:144",
+    "collection": "组件变量集合",
+    "name": "Brand 品牌/p4",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#4ad3a4"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#4ad3a4"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#8ab5ff"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#0b5842"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#233d7b"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#8ab5ff"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#233d7b"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#0b5842"
+      }
+    ],
+    "description": "图形化配色"
+  },
+  {
+    "id": "0:143",
+    "collection": "组件变量集合",
+    "name": "Brand 品牌/p5",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#1db887"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#1db887"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#4785ff"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#077656"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#294ea5"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#4785ff"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#294ea5"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#077656"
+      }
+    ],
+    "description": "可交互控件填充色hover/图形化配色"
+  },
+  {
+    "id": "0:141",
+    "collection": "组件变量集合",
+    "name": "Brand 品牌/p6",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#00ab7a"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#00ab7a"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#356dee"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#00ab7a"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#356dee"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#356dee"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#356dee"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#00ab7a"
+      }
+    ],
+    "description": "主色/可交互控件填充色normal / 文本色hover/图形化配色"
+  },
+  {
+    "id": "0:150",
+    "collection": "组件变量集合",
+    "name": "Brand 品牌/p7",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#039972"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#039972"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#224ec7"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#00cc92"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#5886e4"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#224ec7"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#5886e4"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#00cc92"
+      }
+    ],
+    "description": "可交互控件填充色click / 文本色normal/图形化配色"
+  },
+  {
+    "id": "0:149",
+    "collection": "组件变量集合",
+    "name": "Brand 品牌/p8",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#008563"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#008563"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#1334a1"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#00d990"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#84adf4"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#1334a1"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#84adf4"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#00d990"
+      }
+    ],
+    "description": "文本色click/图形化配色"
+  },
+  {
+    "id": "0:148",
+    "collection": "组件变量集合",
+    "name": "Brand 品牌/p9",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#006853"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#006853"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#091f7a"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#00e699"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#aecbf8"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#091f7a"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#aecbf8"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#00e699"
+      }
+    ],
+    "description": "图形化配色"
+  },
+  {
+    "id": "0:142",
+    "collection": "组件变量集合",
+    "name": "Brand 品牌/p10",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#013c32"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#013c32"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#051254"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#00f2a1"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#d7e7fa"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#051254"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#d7e7fa"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#00f2a1"
+      }
+    ],
+    "description": "图形化配色"
+  },
+  {
+    "id": "0:81",
+    "collection": "组件变量集合",
+    "name": "12px/medium",
+    "type": "TEXT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17,
+          "signature": "58334245914605",
+          "codeSyntax": {},
+          "scope": "0",
+          "features": {
+            "afrc": 0,
+            "calt": 0,
+            "cpsp": 0,
+            "dnom": 0,
+            "frac": 0,
+            "fwid": 0,
+            "hwid": 0,
+            "kern": 0,
+            "liga": 0,
+            "lnum": 0,
+            "numr": 0,
+            "onum": 0,
+            "ordn": 0,
+            "pnum": 0,
+            "salt": 0,
+            "sinf": 0,
+            "zero": 0,
+            "subs": 0,
+            "sups": 0,
+            "tnum": 0,
+            "ss01": 0,
+            "ss02": 0,
+            "ss03": 0,
+            "ss04": 0,
+            "ss05": 0,
+            "ss06": 0,
+            "ss07": 0,
+            "ss08": 0,
+            "ss09": 0,
+            "ss10": 0,
+            "ss11": 0,
+            "ss12": 0,
+            "ss13": 0,
+            "ss14": 0,
+            "ss15": 0,
+            "ss16": 0,
+            "ss17": 0,
+            "ss18": 0,
+            "ss19": 0,
+            "ss20": 0
+          }
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17
+        }
+      }
+    ]
+  },
+  {
+    "id": "0:82",
+    "collection": "组件变量集合",
+    "name": "12px/regular",
+    "type": "TEXT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17,
+          "signature": "58334245914607",
+          "codeSyntax": {},
+          "scope": "0",
+          "features": {
+            "afrc": 0,
+            "calt": 0,
+            "cpsp": 0,
+            "dnom": 0,
+            "frac": 0,
+            "fwid": 0,
+            "hwid": 0,
+            "kern": 0,
+            "liga": 0,
+            "lnum": 0,
+            "numr": 0,
+            "onum": 0,
+            "ordn": 0,
+            "pnum": 0,
+            "salt": 0,
+            "sinf": 0,
+            "zero": 0,
+            "subs": 0,
+            "sups": 0,
+            "tnum": 0,
+            "ss01": 0,
+            "ss02": 0,
+            "ss03": 0,
+            "ss04": 0,
+            "ss05": 0,
+            "ss06": 0,
+            "ss07": 0,
+            "ss08": 0,
+            "ss09": 0,
+            "ss10": 0,
+            "ss11": 0,
+            "ss12": 0,
+            "ss13": 0,
+            "ss14": 0,
+            "ss15": 0,
+            "ss16": 0,
+            "ss17": 0,
+            "ss18": 0,
+            "ss19": 0,
+            "ss20": 0
+          }
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 12,
+          "height": "20.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 17
+        }
+      }
+    ]
+  },
+  {
+    "id": "0:91",
+    "collection": "组件变量集合",
+    "name": "14px/medium",
+    "type": "TEXT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20,
+          "signature": "58334245914608",
+          "codeSyntax": {},
+          "scope": "0",
+          "features": {
+            "afrc": 0,
+            "calt": 0,
+            "cpsp": 0,
+            "dnom": 0,
+            "frac": 0,
+            "fwid": 0,
+            "hwid": 0,
+            "kern": 0,
+            "liga": 0,
+            "lnum": 0,
+            "numr": 0,
+            "onum": 0,
+            "ordn": 0,
+            "pnum": 0,
+            "salt": 0,
+            "sinf": 0,
+            "zero": 0,
+            "subs": 0,
+            "sups": 0,
+            "tnum": 0,
+            "ss01": 0,
+            "ss02": 0,
+            "ss03": 0,
+            "ss04": 0,
+            "ss05": 0,
+            "ss06": 0,
+            "ss07": 0,
+            "ss08": 0,
+            "ss09": 0,
+            "ss10": 0,
+            "ss11": 0,
+            "ss12": 0,
+            "ss13": 0,
+            "ss14": 0,
+            "ss15": 0,
+            "ss16": 0,
+            "ss17": 0,
+            "ss18": 0,
+            "ss19": 0,
+            "ss20": 0
+          }
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "38:38700",
+    "collection": "组件变量集合",
+    "name": "16px/medium",
+    "type": "TEXT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 22,
+          "signature": "58334245914606",
+          "codeSyntax": {},
+          "scope": "0",
+          "features": {
+            "afrc": 0,
+            "calt": 0,
+            "cpsp": 0,
+            "dnom": 0,
+            "frac": 0,
+            "fwid": 0,
+            "hwid": 0,
+            "kern": 0,
+            "liga": 0,
+            "lnum": 0,
+            "numr": 0,
+            "onum": 0,
+            "ordn": 0,
+            "pnum": 0,
+            "salt": 0,
+            "sinf": 0,
+            "zero": 0,
+            "subs": 0,
+            "sups": 0,
+            "tnum": 0,
+            "ss01": 0,
+            "ss02": 0,
+            "ss03": 0,
+            "ss04": 0,
+            "ss05": 0,
+            "ss06": 0,
+            "ss07": 0,
+            "ss08": 0,
+            "ss09": 0,
+            "ss10": 0,
+            "ss11": 0,
+            "ss12": 0,
+            "ss13": 0,
+            "ss14": 0,
+            "ss15": 0,
+            "ss16": 0,
+            "ss17": 0,
+            "ss18": 0,
+            "ss19": 0,
+            "ss20": 0
+          }
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 22
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 22
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 22
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 22
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 22
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 22
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 22
+        }
+      }
+    ]
+  },
+  {
+    "id": "3924:97528",
+    "collection": "组件变量集合",
+    "name": "18px/medium",
+    "type": "TEXT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 25,
+          "signature": "58334245914611",
+          "codeSyntax": {},
+          "scope": "0",
+          "features": {
+            "afrc": 0,
+            "calt": 0,
+            "cpsp": 0,
+            "dnom": 0,
+            "frac": 0,
+            "fwid": 0,
+            "hwid": 0,
+            "kern": 0,
+            "liga": 0,
+            "lnum": 0,
+            "numr": 0,
+            "onum": 0,
+            "ordn": 0,
+            "pnum": 0,
+            "salt": 0,
+            "sinf": 0,
+            "zero": 0,
+            "subs": 0,
+            "sups": 0,
+            "tnum": 0,
+            "ss01": 0,
+            "ss02": 0,
+            "ss03": 0,
+            "ss04": 0,
+            "ss05": 0,
+            "ss06": 0,
+            "ss07": 0,
+            "ss08": 0,
+            "ss09": 0,
+            "ss10": 0,
+            "ss11": 0,
+            "ss12": 0,
+            "ss13": 0,
+            "ss14": 0,
+            "ss15": 0,
+            "ss16": 0,
+            "ss17": 0,
+            "ss18": 0,
+            "ss19": 0,
+            "ss20": 0
+          }
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": -1
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": -1
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": -1
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": -1
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": -1
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": -1
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "3924:97532",
+    "collection": "组件变量集合",
+    "name": "18px/regular",
+    "type": "TEXT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontStyle": "常规体",
+          "fontFamily": "PingFang SC",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "EMPTYHASHFFFFFFF",
+          "fontDefaultLineHeight": 25,
+          "signature": "58334245914609",
+          "codeSyntax": {},
+          "scope": "0",
+          "features": {
+            "afrc": 0,
+            "calt": 0,
+            "cpsp": 0,
+            "dnom": 0,
+            "frac": 0,
+            "fwid": 0,
+            "hwid": 0,
+            "kern": 0,
+            "liga": 0,
+            "lnum": 0,
+            "numr": 0,
+            "onum": 0,
+            "ordn": 0,
+            "pnum": 0,
+            "salt": 0,
+            "sinf": 0,
+            "zero": 0,
+            "subs": 0,
+            "sups": 0,
+            "tnum": 0,
+            "ss01": 0,
+            "ss02": 0,
+            "ss03": 0,
+            "ss04": 0,
+            "ss05": 0,
+            "ss06": 0,
+            "ss07": 0,
+            "ss08": 0,
+            "ss09": 0,
+            "ss10": 0,
+            "ss11": 0,
+            "ss12": 0,
+            "ss13": 0,
+            "ss14": 0,
+            "ss15": 0,
+            "ss16": 0,
+            "ss17": 0,
+            "ss18": 0,
+            "ss19": 0,
+            "ss20": 0
+          }
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontStyle": "常规体",
+          "fontFamily": "PingFang SC",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "EMPTYHASHFFFFFFF",
+          "fontDefaultLineHeight": -1
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontStyle": "常规体",
+          "fontFamily": "PingFang SC",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "EMPTYHASHFFFFFFF",
+          "fontDefaultLineHeight": -1
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontStyle": "常规体",
+          "fontFamily": "PingFang SC",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "EMPTYHASHFFFFFFF",
+          "fontDefaultLineHeight": -1
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontStyle": "常规体",
+          "fontFamily": "PingFang SC",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "EMPTYHASHFFFFFFF",
+          "fontDefaultLineHeight": -1
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontStyle": "常规体",
+          "fontFamily": "PingFang SC",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "EMPTYHASHFFFFFFF",
+          "fontDefaultLineHeight": -1
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontStyle": "常规体",
+          "fontFamily": "PingFang SC",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "EMPTYHASHFFFFFFF",
+          "fontDefaultLineHeight": -1
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontStyle": "常规体",
+          "fontFamily": "PingFang SC",
+          "fontSize": 18,
+          "height": "26.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "EMPTYHASHFFFFFFF",
+          "fontDefaultLineHeight": -1
+        }
+      }
+    ]
+  },
+  {
+    "id": "38:38609",
+    "collection": "组件变量集合",
+    "name": "16px/regular",
+    "type": "TEXT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "99E2DE86304BBEEBC5F20FC3E427D415",
+          "fontDefaultLineHeight": 22,
+          "signature": "58334245914610",
+          "codeSyntax": {},
+          "scope": "0",
+          "features": {
+            "afrc": 0,
+            "calt": 0,
+            "cpsp": 0,
+            "dnom": 0,
+            "frac": 0,
+            "fwid": 0,
+            "hwid": 0,
+            "kern": 0,
+            "liga": 0,
+            "lnum": 0,
+            "numr": 0,
+            "onum": 0,
+            "ordn": 0,
+            "pnum": 0,
+            "salt": 0,
+            "sinf": 0,
+            "zero": 0,
+            "subs": 0,
+            "sups": 0,
+            "tnum": 0,
+            "ss01": 0,
+            "ss02": 0,
+            "ss03": 0,
+            "ss04": 0,
+            "ss05": 0,
+            "ss06": 0,
+            "ss07": 0,
+            "ss08": 0,
+            "ss09": 0,
+            "ss10": 0,
+            "ss11": 0,
+            "ss12": 0,
+            "ss13": 0,
+            "ss14": 0,
+            "ss15": 0,
+            "ss16": 0,
+            "ss17": 0,
+            "ss18": 0,
+            "ss19": 0,
+            "ss20": 0
+          }
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "99E2DE86304BBEEBC5F20FC3E427D415",
+          "fontDefaultLineHeight": 22
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "99E2DE86304BBEEBC5F20FC3E427D415",
+          "fontDefaultLineHeight": 22
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "99E2DE86304BBEEBC5F20FC3E427D415",
+          "fontDefaultLineHeight": 22
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "99E2DE86304BBEEBC5F20FC3E427D415",
+          "fontDefaultLineHeight": 22
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "99E2DE86304BBEEBC5F20FC3E427D415",
+          "fontDefaultLineHeight": 22
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "99E2DE86304BBEEBC5F20FC3E427D415",
+          "fontDefaultLineHeight": 22
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 16,
+          "height": "24.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "99E2DE86304BBEEBC5F20FC3E427D415",
+          "fontDefaultLineHeight": 22
+        }
+      }
+    ]
+  },
+  {
+    "id": "0:92",
+    "collection": "组件变量集合",
+    "name": "14px/regular",
+    "type": "TEXT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20,
+          "signature": "58334245914612",
+          "codeSyntax": {},
+          "scope": "0",
+          "features": {
+            "afrc": 0,
+            "calt": 0,
+            "cpsp": 0,
+            "dnom": 0,
+            "frac": 0,
+            "fwid": 0,
+            "hwid": 0,
+            "kern": 0,
+            "liga": 0,
+            "lnum": 0,
+            "numr": 0,
+            "onum": 0,
+            "ordn": 0,
+            "pnum": 0,
+            "salt": 0,
+            "sinf": 0,
+            "zero": 0,
+            "subs": 0,
+            "sups": 0,
+            "tnum": 0,
+            "ss01": 0,
+            "ss02": 0,
+            "ss03": 0,
+            "ss04": 0,
+            "ss05": 0,
+            "ss06": 0,
+            "ss07": 0,
+            "ss08": 0,
+            "ss09": 0,
+            "ss10": 0,
+            "ss11": 0,
+            "ss12": 0,
+            "ss13": 0,
+            "ss14": 0,
+            "ss15": 0,
+            "ss16": 0,
+            "ss17": 0,
+            "ss18": 0,
+            "ss19": 0,
+            "ss20": 0
+          }
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "SourceHanSansCN-Regular",
+          "fontStyle": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "SourceHanSansCN-Regular",
+          "fontStyle": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "SourceHanSansCN-Regular",
+          "fontStyle": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "SourceHanSansCN-Regular",
+          "fontStyle": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "SourceHanSansCN-Regular",
+          "fontStyle": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "SourceHanSansCN-Regular",
+          "fontStyle": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "SourceHanSansCN-Regular",
+          "fontStyle": "{\"fontStyle\":\"Regular\",\"opsz\":\"auto\"}",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 14,
+          "height": "22.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": "62:22780",
+    "collection": "组件变量集合",
+    "name": "Focus Shadow/Default 默认",
+    "type": "EFFECT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "0px 0px 0px 2px #d9f4ee"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "0px 0px 0px 2px #d9f4ee"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "0px 0px 0px 2px #d9f4ee"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "0px 0px 0px 2px #d9f4ee"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "0px 0px 0px 2px #d9f4ee"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "0px 0px 0px 2px #d9f4ee"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "0px 0px 0px 2px #d9f4ee"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "0px 0px 0px 2px #d9f4ee"
+      }
+    ]
+  },
+  {
+    "id": "62:23465",
+    "collection": "组件变量集合",
+    "name": "Focus Shadow/Error 错误",
+    "type": "EFFECT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "0px 0px 0px 2px #ffe8e6"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "0px 0px 0px 2px #ffe8e6"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "0px 0px 0px 2px #ffe8e6"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "0px 0px 0px 2px #ffe8e6"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "0px 0px 0px 2px #ffe8e6"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "0px 0px 0px 2px #ffe8e6"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "0px 0px 0px 2px #ffe8e6"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "0px 0px 0px 2px #ffe8e6"
+      }
+    ]
+  },
+  {
+    "id": "62:23488",
+    "collection": "组件变量集合",
+    "name": "Focus Shadow/Success成功",
+    "type": "EFFECT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "0px 0px 0px 2px #eff8ee"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "0px 0px 0px 2px #eff8ee"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "0px 0px 0px 2px #eff8ee"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "0px 0px 0px 2px #eff8ee"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "0px 0px 0px 2px #eff8ee"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "0px 0px 0px 2px #eff8ee"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "0px 0px 0px 2px #eff8ee"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "0px 0px 0px 2px #eff8ee"
+      }
+    ]
+  },
+  {
+    "id": "0:111",
+    "collection": "组件变量集合",
+    "name": "20px/medium",
+    "type": "TEXT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28,
+          "signature": "58334245914601",
+          "codeSyntax": {},
+          "scope": "0",
+          "features": {
+            "afrc": 0,
+            "calt": 0,
+            "cpsp": 0,
+            "dnom": 0,
+            "frac": 0,
+            "fwid": 0,
+            "hwid": 0,
+            "kern": 0,
+            "liga": 0,
+            "lnum": 0,
+            "numr": 0,
+            "onum": 0,
+            "ordn": 0,
+            "pnum": 0,
+            "salt": 0,
+            "sinf": 0,
+            "zero": 0,
+            "subs": 0,
+            "sups": 0,
+            "tnum": 0,
+            "ss01": 0,
+            "ss02": 0,
+            "ss03": 0,
+            "ss04": 0,
+            "ss05": 0,
+            "ss06": 0,
+            "ss07": 0,
+            "ss08": 0,
+            "ss09": 0,
+            "ss10": 0,
+            "ss11": 0,
+            "ss12": 0,
+            "ss13": 0,
+            "ss14": 0,
+            "ss15": 0,
+            "ss16": 0,
+            "ss17": 0,
+            "ss18": 0,
+            "ss19": 0,
+            "ss20": 0
+          }
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28
+        }
+      }
+    ]
+  },
+  {
+    "id": "0:112",
+    "collection": "组件变量集合",
+    "name": "20px/regular",
+    "type": "TEXT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28,
+          "signature": "58334245914604",
+          "codeSyntax": {},
+          "scope": "0",
+          "features": {
+            "afrc": 0,
+            "calt": 0,
+            "cpsp": 0,
+            "dnom": 0,
+            "frac": 0,
+            "fwid": 0,
+            "hwid": 0,
+            "kern": 0,
+            "liga": 0,
+            "lnum": 0,
+            "numr": 0,
+            "onum": 0,
+            "ordn": 0,
+            "pnum": 0,
+            "salt": 0,
+            "sinf": 0,
+            "zero": 0,
+            "subs": 0,
+            "sups": 0,
+            "tnum": 0,
+            "ss01": 0,
+            "ss02": 0,
+            "ss03": 0,
+            "ss04": 0,
+            "ss05": 0,
+            "ss06": 0,
+            "ss07": 0,
+            "ss08": 0,
+            "ss09": 0,
+            "ss10": 0,
+            "ss11": 0,
+            "ss12": 0,
+            "ss13": 0,
+            "ss14": 0,
+            "ss15": 0,
+            "ss16": 0,
+            "ss17": 0,
+            "ss18": 0,
+            "ss19": 0,
+            "ss20": 0
+          }
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 20,
+          "height": "28.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontHash": "FD717C79561557F159C9F289F92FB545",
+          "fontDefaultLineHeight": 28
+        }
+      }
+    ]
+  },
+  {
+    "id": "0:116",
+    "collection": "组件变量集合",
+    "name": "24px/medium",
+    "type": "TEXT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34,
+          "signature": "58334245914603",
+          "codeSyntax": {},
+          "scope": "0",
+          "features": {
+            "afrc": 0,
+            "calt": 0,
+            "cpsp": 0,
+            "dnom": 0,
+            "frac": 0,
+            "fwid": 0,
+            "hwid": 0,
+            "kern": 0,
+            "liga": 0,
+            "lnum": 0,
+            "numr": 0,
+            "onum": 0,
+            "ordn": 0,
+            "pnum": 0,
+            "salt": 0,
+            "sinf": 0,
+            "zero": 0,
+            "subs": 0,
+            "sups": 0,
+            "tnum": 0,
+            "ss01": 0,
+            "ss02": 0,
+            "ss03": 0,
+            "ss04": 0,
+            "ss05": 0,
+            "ss06": 0,
+            "ss07": 0,
+            "ss08": 0,
+            "ss09": 0,
+            "ss10": 0,
+            "ss11": 0,
+            "ss12": 0,
+            "ss13": 0,
+            "ss14": 0,
+            "ss15": 0,
+            "ss16": 0,
+            "ss17": 0,
+            "ss18": 0,
+            "ss19": 0,
+            "ss20": 0
+          }
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Medium",
+          "fontFamily": "PingFangSC-Medium",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "0:117",
+    "collection": "组件变量集合",
+    "name": "24px/regular",
+    "type": "TEXT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34,
+          "signature": "58334245914602",
+          "codeSyntax": {},
+          "scope": "0",
+          "features": {
+            "afrc": 0,
+            "calt": 0,
+            "cpsp": 0,
+            "dnom": 0,
+            "frac": 0,
+            "fwid": 0,
+            "hwid": 0,
+            "kern": 0,
+            "liga": 0,
+            "lnum": 0,
+            "numr": 0,
+            "onum": 0,
+            "ordn": 0,
+            "pnum": 0,
+            "salt": 0,
+            "sinf": 0,
+            "zero": 0,
+            "subs": 0,
+            "sups": 0,
+            "tnum": 0,
+            "ss01": 0,
+            "ss02": 0,
+            "ss03": 0,
+            "ss04": 0,
+            "ss05": 0,
+            "ss06": 0,
+            "ss07": 0,
+            "ss08": 0,
+            "ss09": 0,
+            "ss10": 0,
+            "ss11": 0,
+            "ss12": 0,
+            "ss13": 0,
+            "ss14": 0,
+            "ss15": 0,
+            "ss16": 0,
+            "ss17": 0,
+            "ss18": 0,
+            "ss19": 0,
+            "ss20": 0
+          }
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "decoration": 0,
+          "postscriptName": "PingFangSC-Regular",
+          "fontFamily": "PingFangSC-Regular",
+          "fontSize": 24,
+          "height": "32.000000",
+          "letterSpacing": 0,
+          "overrideState": "0",
+          "fontHeightOverride": true,
+          "fontHeightPercent": false,
+          "wordSpacing": 0,
+          "textCase": 0,
+          "type": 3,
+          "letterSpacingUnit": 1,
+          "fontDefaultLineHeight": 34
+        }
+      }
+    ]
+  },
+  {
+    "id": "0:26",
+    "collection": "组件变量集合",
+    "name": "投影/投影-默认",
+    "type": "EFFECT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px 0px rgba(0, 0, 0, 0.08), 0px 9px 28px 8px rgba(0, 0, 0, 0.04)"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px 0px rgba(0, 0, 0, 0.08), 0px 9px 28px 8px rgba(0, 0, 0, 0.04)"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "0px 9px 28px 8px rgba(0, 0, 0, 0.04), 0px 6px 16px 0px rgba(0, 0, 0, 0.08), 0px 3px 6px -4px rgba(0, 0, 0, 0.12)"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px 0px rgba(0, 0, 0, 0.08), 0px 9px 28px 8px rgba(0, 0, 0, 0.04)"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "0px 9px 28px 8px rgba(0, 0, 0, 0.04), 0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px 0px rgba(0, 0, 0, 0.08)"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "0px 6px 16px 0px rgba(0, 0, 0, 0.08), 0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 9px 28px 8px rgba(0, 0, 0, 0.04)"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "0px 9px 28px 8px rgba(0, 0, 0, 0.04), 0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px 0px rgba(0, 0, 0, 0.08)"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "0px 6px 16px 0px rgba(0, 0, 0, 0.08), 0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 9px 28px 8px rgba(0, 0, 0, 0.04)"
+      }
+    ]
+  },
+  {
+    "id": "0:28",
+    "collection": "组件变量集合",
+    "name": "投影/投影-悬停",
+    "type": "EFFECT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "0px 1px 2px -2px rgba(0, 0, 0, 0.16), 0px 3px 6px 0px rgba(0, 0, 0, 0.12), 0px 5px 12px 4px rgba(0, 0, 0, 0.08)"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "0px 1px 2px -2px rgba(0, 0, 0, 0.16), 0px 3px 6px 0px rgba(0, 0, 0, 0.12), 0px 5px 12px 4px rgba(0, 0, 0, 0.08)"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "0px 5px 12px 4px rgba(0, 0, 0, 0.08), 0px 3px 6px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px -2px rgba(0, 0, 0, 0.16)"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "0px 1px 2px -2px rgba(0, 0, 0, 0.16), 0px 3px 6px 0px rgba(0, 0, 0, 0.12), 0px 5px 12px 4px rgba(0, 0, 0, 0.08)"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "0px 3px 6px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px -2px rgba(0, 0, 0, 0.16), 0px 5px 12px 4px rgba(0, 0, 0, 0.08)"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "0px 5px 12px 4px rgba(0, 0, 0, 0.08), 0px 1px 2px -2px rgba(0, 0, 0, 0.16), 0px 3px 6px 0px rgba(0, 0, 0, 0.12)"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "0px 3px 6px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px -2px rgba(0, 0, 0, 0.16), 0px 5px 12px 4px rgba(0, 0, 0, 0.08)"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "0px 5px 12px 4px rgba(0, 0, 0, 0.08), 0px 1px 2px -2px rgba(0, 0, 0, 0.16), 0px 3px 6px 0px rgba(0, 0, 0, 0.12)"
+      }
+    ]
+  },
+  {
+    "id": "11714:043866",
+    "collection": "组件变量集合",
+    "name": "圆角 全圆角 256000",
+    "type": "CORNER_RADIUS",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "floatData": [
+            256000,
+            256000,
+            256000,
+            256000
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "floatData": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "floatData": [
+            1000,
+            1000,
+            1000,
+            1000
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "floatData": [
+            1000,
+            1000,
+            1000,
+            1000
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "floatData": [
+            1000,
+            1000,
+            1000,
+            1000
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "floatData": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "floatData": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "floatData": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    ],
+    "description": "特殊场景按钮控件需全圆角时使用"
+  },
+  {
+    "id": "11714:074532",
+    "collection": "组件变量集合",
+    "name": "左侧圆角 6px",
+    "type": "CORNER_RADIUS",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "floatData": [
+            6,
+            0,
+            0,
+            6
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "floatData": [
+            2,
+            0,
+            0,
+            2
+          ]
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "floatData": [
+            6,
+            0,
+            0,
+            6
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "floatData": [
+            6,
+            0,
+            0,
+            6
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "floatData": [
+            6,
+            0,
+            0,
+            6
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "floatData": [
+            2,
+            0,
+            0,
+            2
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "floatData": [
+            2,
+            0,
+            0,
+            2
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "floatData": [
+            2,
+            0,
+            0,
+            2
+          ]
+        }
+      }
+    ],
+    "description": "控件左侧两角值为 6px"
+  },
+  {
+    "id": "11714:074535",
+    "collection": "组件变量集合",
+    "name": "右侧圆角 6px",
+    "type": "CORNER_RADIUS",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "floatData": [
+            0,
+            6,
+            6,
+            0
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "floatData": [
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "floatData": [
+            0,
+            6,
+            6,
+            0
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "floatData": [
+            0,
+            6,
+            6,
+            0
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "floatData": [
+            0,
+            6,
+            6,
+            0
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "floatData": [
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "floatData": [
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "floatData": [
+            0,
+            2,
+            2,
+            0
+          ]
+        }
+      }
+    ],
+    "description": "控件右侧圆角值为 6px"
+  },
+  {
+    "id": "11760:085503",
+    "collection": "组件变量集合",
+    "name": "圆角 20px",
+    "type": "CORNER_RADIUS",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "floatData": [
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "floatData": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "floatData": [
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "floatData": [
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "floatData": [
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "floatData": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "floatData": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "floatData": [
+            10,
+            10,
+            10,
+            10
+          ]
+        }
+      }
+    ],
+    "description": "页面级特殊大卡片场景慎用"
+  },
+  {
+    "id": "11760:085502",
+    "collection": "组件变量集合",
+    "name": "圆角 16px",
+    "type": "CORNER_RADIUS",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "floatData": [
+            16,
+            16,
+            16,
+            16
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "floatData": [
+            8,
+            8,
+            8,
+            8
+          ]
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "floatData": [
+            16,
+            16,
+            16,
+            16
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "floatData": [
+            16,
+            16,
+            16,
+            16
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "floatData": [
+            16,
+            16,
+            16,
+            16
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "floatData": [
+            8,
+            8,
+            8,
+            8
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "floatData": [
+            8,
+            8,
+            8,
+            8
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "floatData": [
+            8,
+            8,
+            8,
+            8
+          ]
+        }
+      }
+    ],
+    "description": "大卡片"
+  },
+  {
+    "id": "11714:043867",
+    "collection": "组件变量集合",
+    "name": "圆角 12px",
+    "type": "CORNER_RADIUS",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "floatData": [
+            12,
+            12,
+            12,
+            12
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "floatData": [
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "floatData": [
+            12,
+            12,
+            12,
+            12
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "floatData": [
+            12,
+            12,
+            12,
+            12
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "floatData": [
+            12,
+            12,
+            12,
+            12
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "floatData": [
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "floatData": [
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "floatData": [
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      }
+    ],
+    "description": "通知提示、对话框"
+  },
+  {
+    "id": "11714:043865",
+    "collection": "组件变量集合",
+    "name": "圆角 8px",
+    "type": "CORNER_RADIUS",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "floatData": [
+            8,
+            8,
+            8,
+            8
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "floatData": [
+            8,
+            8,
+            8,
+            8
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "floatData": [
+            8,
+            8,
+            8,
+            8
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "floatData": [
+            8,
+            8,
+            8,
+            8
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      }
+    ],
+    "description": "宽松型：按钮常规对话框控件场景"
+  },
+  {
+    "id": "12496:108940",
+    "collection": "组件变量集合",
+    "name": "AI配色/AI 默认",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "#004dff"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "#004dff"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "#004dff"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "#004dff"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "#004dff"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "#004dff"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "#004dff"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "#004dff"
+      }
+    ],
+    "description": "AI按钮默认色"
+  },
+  {
+    "id": "12496:108988",
+    "collection": "组件变量集合",
+    "name": "AI配色/AI 悬停",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": [
+          "rgba(255, 255, 255, 0.2)",
+          "#004dff"
+        ]
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": [
+          "rgba(255, 255, 255, 0.2)",
+          "#004dff"
+        ]
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": [
+          "rgba(255, 255, 255, 0.2)",
+          "#004dff"
+        ]
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": [
+          "rgba(255, 255, 255, 0.2)",
+          "#004dff"
+        ]
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": [
+          "rgba(255, 255, 255, 0.2)",
+          "#004dff"
+        ]
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": [
+          "rgba(255, 255, 255, 0.2)",
+          "#004dff"
+        ]
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": [
+          "rgba(255, 255, 255, 0.2)",
+          "#004dff"
+        ]
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": [
+          "rgba(255, 255, 255, 0.2)",
+          "#004dff"
+        ]
+      }
+    ],
+    "description": "AI按钮悬停"
+  },
+  {
+    "id": "12496:108999",
+    "collection": "组件变量集合",
+    "name": "AI配色/AI 按下",
+    "type": "PAINT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": [
+          "rgba(0, 0, 0, 0.2)",
+          "#004dff"
+        ]
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": [
+          "rgba(0, 0, 0, 0.2)",
+          "#004dff"
+        ]
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": [
+          "rgba(0, 0, 0, 0.2)",
+          "#004dff"
+        ]
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": [
+          "rgba(0, 0, 0, 0.2)",
+          "#004dff"
+        ]
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": [
+          "rgba(0, 0, 0, 0.2)",
+          "#004dff"
+        ]
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": [
+          "rgba(0, 0, 0, 0.2)",
+          "#004dff"
+        ]
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": [
+          "rgba(0, 0, 0, 0.2)",
+          "#004dff"
+        ]
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": [
+          "rgba(0, 0, 0, 0.2)",
+          "#004dff"
+        ]
+      }
+    ],
+    "description": "AI按钮按下"
+  },
+  {
+    "id": "62:23507",
+    "collection": "组件变量集合",
+    "name": "Focus Shadow/Warning警告",
+    "type": "EFFECT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "0px 0px 0px 2px #fff8e6"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "0px 0px 0px 2px #fff8e6"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "0px 0px 0px 2px #fff8e6"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "0px 0px 0px 2px #fff8e6"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "0px 0px 0px 2px #fff8e6"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "0px 0px 0px 2px #fff8e6"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "0px 0px 0px 2px #fff8e6"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "0px 0px 0px 2px #fff8e6"
+      }
+    ]
+  },
+  {
+    "id": "11714:043864",
+    "collection": "组件变量集合",
+    "name": "圆角6px",
+    "type": "CORNER_RADIUS",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "floatData": [
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "floatData": [
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "floatData": [
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "floatData": [
+            6,
+            6,
+            6,
+            6
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      }
+    ],
+    "description": "常规型：常规按钮选择器输入框、下拉菜单场景"
+  },
+  {
+    "id": "11714:043863",
+    "collection": "组件变量集合",
+    "name": "圆角 4px",
+    "type": "CORNER_RADIUS",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "floatData": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "floatData": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "floatData": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "floatData": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      }
+    ],
+    "description": "24px小尺寸按钮标签圆角场景"
+  },
+  {
+    "id": "11714:043862",
+    "collection": "组件变量集合",
+    "name": "圆角 2px",
+    "type": "CORNER_RADIUS",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": {
+          "floatData": [
+            2,
+            2,
+            2,
+            2
+          ]
+        }
+      }
+    ],
+    "description": "仅应用于气泡卡片的小角标箭头"
+  },
+  {
+    "id": "12901:143596",
+    "collection": "组件变量集合",
+    "name": "投影/一级-向上",
+    "type": "EFFECT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "0px -4px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "0px -4px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "0px -4px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "0px -4px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "0px -4px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "0px -4px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "0px -4px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "0px -4px 16px 0px rgba(36, 41, 51, 0.05)"
+      }
+    ],
+    "description": "应用于卡片背景浮起状态"
+  },
+  {
+    "id": "12901:143598",
+    "collection": "组件变量集合",
+    "name": "投影/一级-向下",
+    "type": "EFFECT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "0px 4px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "0px 4px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "0px 4px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "0px 4px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "0px 4px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "0px 4px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "0px 4px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "0px 4px 16px 0px rgba(36, 41, 51, 0.05)"
+      }
+    ],
+    "description": "应用于卡片背景浮起状态"
+  },
+  {
+    "id": "12901:143600",
+    "collection": "组件变量集合",
+    "name": "投影/一级-向左",
+    "type": "EFFECT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "-4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "-4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "-4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "-4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "-4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "-4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "-4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "-4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      }
+    ],
+    "description": "应用于卡片背景浮起状态"
+  },
+  {
+    "id": "12901:143602",
+    "collection": "组件变量集合",
+    "name": "投影/一级-向右",
+    "type": "EFFECT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "4px 0px 16px 0px rgba(36, 41, 51, 0.05)"
+      }
+    ],
+    "description": "应用于卡片背景浮起状态"
+  },
+  {
+    "id": "12901:143610",
+    "collection": "组件变量集合",
+    "name": "投影/二级-向上",
+    "type": "EFFECT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "0px -8px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "0px -8px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "0px -8px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "0px -8px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "0px -8px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "0px -8px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "0px -8px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "0px -8px 80px 0px rgba(36, 41, 51, 0.08)"
+      }
+    ],
+    "description": "应用于侧拉抽屉，遮罩弹窗等"
+  },
+  {
+    "id": "12901:143612",
+    "collection": "组件变量集合",
+    "name": "投影/二级-向下",
+    "type": "EFFECT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "0px 4px 16px 0px rgba(36, 41, 51, 0.05)"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "0px 8px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "0px 8px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "0px 8px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "0px 8px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "0px 8px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "0px 8px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "0px 8px 80px 0px rgba(36, 41, 51, 0.08)"
+      }
+    ],
+    "description": "应用于侧拉抽屉，遮罩弹窗等"
+  },
+  {
+    "id": "12901:143614",
+    "collection": "组件变量集合",
+    "name": "投影/二级-向左",
+    "type": "EFFECT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "-8px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "-8px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "-8px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "-8px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "-8px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "-8px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "-8px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "-8px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      }
+    ],
+    "description": "应用于侧拉抽屉，遮罩弹窗等"
+  },
+  {
+    "id": "12901:143616",
+    "collection": "组件变量集合",
+    "name": "投影/二级-向右",
+    "type": "EFFECT",
+    "mode": [
+      {
+        "name": "3.0-浅色绿",
+        "value": "6px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "2.6-浅色绿",
+        "value": "6px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "3.0-浅色蓝",
+        "value": "6px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "3.0-暗黑绿",
+        "value": "6px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "3.0-暗黑蓝",
+        "value": "6px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "2.6-浅色蓝",
+        "value": "6px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "2.6-暗黑蓝",
+        "value": "6px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      },
+      {
+        "name": "2.6-暗黑绿",
+        "value": "6px 0px 80px 0px rgba(36, 41, 51, 0.08)"
+      }
+    ],
+    "description": "应用于侧拉抽屉，遮罩弹窗等"
+  }
+]

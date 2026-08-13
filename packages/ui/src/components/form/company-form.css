@@ -1,0 +1,461 @@
+.company-form {
+  width: 100%;
+  min-width: 0;
+}
+
+.company-form .ant-form-item {
+  margin-bottom: var(--company-space-20px);
+}
+
+.company-form .ant-form-item:last-child {
+  margin-bottom: 0;
+}
+
+.company-form--left .ant-form-item-row,
+.company-form--right .ant-form-item-row {
+  display: grid;
+  grid-template-columns: var(--company-form-label-width) minmax(0, 1fr);
+  align-items: start;
+  column-gap: var(--company-space-16px);
+}
+
+.company-form--left .ant-form-item-label,
+.company-form--right .ant-form-item-label {
+  width: var(--company-form-label-width);
+  padding: var(--company-space-5px) 0 !important;
+  overflow: visible;
+  white-space: normal;
+}
+
+.company-form--left .ant-form-item-label > label,
+.company-form--right .ant-form-item-label > label {
+  width: 100%;
+  min-height: 22px;
+  color: var(--company-text-secondary);
+  line-height: 22px;
+}
+
+.company-form--left .ant-form-item-label > label {
+  justify-content: flex-start;
+}
+
+.company-form--right .ant-form-item-label > label {
+  justify-content: flex-end;
+}
+
+.company-form--top .ant-form-item {
+  margin-bottom: var(--company-space-24px);
+}
+
+.company-form--top .ant-form-item-label {
+  padding: 0 0 var(--company-space-8px);
+}
+
+.company-form--top .ant-form-item-label > label {
+  min-height: 22px;
+  color: var(--company-text-secondary);
+  line-height: 22px;
+}
+
+.company-form .ant-form-item-label > label::after {
+  display: none;
+}
+
+.company-form-item__label-content {
+  min-width: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--company-space-2px);
+  white-space: nowrap;
+}
+
+.company-form-item__required {
+  color: var(--company-danger);
+}
+
+.company-form-item__label-text {
+  min-width: 0;
+}
+
+.company-form-item__help {
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--company-text-tertiary);
+  cursor: help;
+}
+
+.company-form-item__help .company-icon {
+  font-size: 14px;
+}
+
+.company-form .ant-form-item-control,
+.company-form .ant-form-item-control-input,
+.company-form .ant-form-item-control-input-content {
+  min-width: 0;
+}
+
+.company-form .ant-form-item-explain-error {
+  padding-top: var(--company-space-4px);
+  color: var(--company-danger);
+  line-height: 20px;
+}
+
+.company-categorized-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--company-space-40px);
+}
+
+.company-form-section {
+  min-width: 0;
+}
+
+.company-form-section__heading {
+  margin-bottom: var(--company-space-20px);
+}
+
+.company-form-section__heading h3,
+.company-form-section__heading h4,
+.company-form-section__heading p {
+  margin: 0;
+}
+
+.company-form-section__heading h3 {
+  color: var(--company-text);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.company-form-section__heading h4 {
+  color: var(--company-text);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.company-form-section__heading p {
+  margin-top: var(--company-space-4px);
+  color: var(--company-text-tertiary);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.company-form-section--level-2 {
+  margin-top: var(--company-space-32px);
+}
+
+.company-categorized-form__actions {
+  padding-left: calc(var(--company-form-label-width) + var(--company-space-16px));
+  display: flex;
+  align-items: center;
+  gap: var(--company-space-12px);
+}
+
+.company-filter-form {
+  width: 100%;
+  min-width: 0;
+  color: var(--company-text);
+  background: var(--company-surface);
+  border-radius: var(--company-container-radius);
+}
+
+.company-filter-form__content {
+  min-width: 0;
+}
+
+.company-filter-form__fields {
+  min-width: 0;
+}
+
+.company-filter-form__actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--company-space-12px);
+}
+
+.company-filter-form--inline,
+.company-filter-form--labeled {
+  min-height: 80px;
+  padding: var(--company-space-24px);
+}
+
+.company-filter-form--inline .company-filter-form__content,
+.company-filter-form--labeled .company-filter-form__content {
+  display: flex;
+  align-items: center;
+}
+
+.company-filter-form--inline .company-filter-form__fields,
+.company-filter-form--labeled .company-filter-form__fields {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+}
+
+.company-filter-form--inline .company-filter-form__fields {
+  gap: var(--company-space-12px);
+}
+
+.company-filter-form--labeled .company-filter-form__fields {
+  gap: var(--company-space-24px);
+}
+
+.company-filter-form--inline .company-filter-form__actions,
+.company-filter-form--labeled .company-filter-form__actions {
+  margin-left: var(--company-space-12px);
+}
+
+.company-filter-field {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--company-space-8px);
+}
+
+.company-filter-field__label {
+  flex: 0 0 auto;
+  color: var(--company-text-secondary);
+  white-space: nowrap;
+}
+
+.company-filter-field__control {
+  min-width: 0;
+  flex: 1;
+}
+
+.company-filter-field__control > * {
+  width: 100%;
+}
+
+.company-filter-form--section {
+  padding-top: var(--company-space-24px);
+}
+
+.company-filter-form--section .company-filter-form__title {
+  min-height: 24px;
+  margin: 0;
+  padding-left: var(--company-space-20px);
+  position: relative;
+  color: var(--company-text);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.company-filter-form--section .company-filter-form__title::before {
+  content: '';
+  width: 4px;
+  height: 16px;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  border-radius: var(--company-radius-2);
+  background: var(--company-brand);
+}
+
+.company-filter-form--section .company-filter-form__content {
+  padding: var(--company-space-20px);
+}
+
+.company-filter-form--section .company-filter-form__fields {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--company-space-20px) var(--company-space-32px);
+}
+
+.company-filter-form--section .company-filter-form__actions {
+  margin-top: var(--company-space-20px);
+}
+
+.company-search-bar {
+  width: 100%;
+  min-width: 482px;
+  max-width: 1184px;
+  min-height: 48px;
+  padding: var(--company-space-4px);
+  display: grid;
+  grid-template-columns: auto 1px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--company-space-8px);
+  border-radius: var(--company-container-radius);
+  background: var(--company-surface);
+  box-shadow: var(--company-search-bar-shadow);
+}
+
+.company-search-bar__scope {
+  width: 96px;
+}
+
+.company-search-bar__scope .ant-select-selector,
+.company-search-bar__input,
+.company-search-bar__input.ant-input-affix-wrapper,
+.company-search-bar__input.ant-input {
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+
+.company-search-bar__divider {
+  width: 1px;
+  height: 24px;
+  background: var(--company-divider);
+}
+
+.company-search-bar__submit {
+  min-width: 60px;
+  height: 40px;
+  padding: 0 var(--company-space-20px);
+}
+
+.company-dynamic-form {
+  width: 100%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--company-space-16px);
+}
+
+.company-dynamic-form__entry {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) auto auto;
+  gap: var(--company-space-12px);
+}
+
+.company-dynamic-form--tags {
+  gap: var(--company-space-12px);
+}
+
+.company-dynamic-form__tag-entry {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.company-dynamic-form--tags .company-editable-tag-group {
+  width: 100%;
+}
+
+.company-form-table {
+  width: 100%;
+  min-width: 0;
+  position: relative;
+  border-bottom: 1px solid var(--company-divider);
+  overflow: hidden;
+}
+
+.company-form-table table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  color: var(--company-text-secondary);
+}
+
+.company-form-table th,
+.company-form-table td {
+  height: 48px;
+  padding: 0 var(--company-space-16px);
+  border-bottom: 1px solid var(--company-divider);
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.company-form-table th {
+  color: var(--company-text);
+  font-weight: 500;
+  background: var(--company-page-bg);
+}
+
+.company-form-table__check {
+  width: 48px;
+  padding-right: 0 !important;
+}
+
+.company-form-table__action {
+  width: 72px;
+  text-align: right !important;
+}
+
+.company-form-table__action .company-button {
+  padding-inline: 0;
+}
+
+.company-form-table__empty {
+  min-height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--company-space-8px);
+  color: var(--company-text-tertiary);
+  background: var(--company-surface);
+}
+
+.company-form-table__empty img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+}
+
+@container (max-width: 820px) {
+  .company-filter-form--inline .company-filter-form__content,
+  .company-filter-form--labeled .company-filter-form__content {
+    align-items: stretch;
+    flex-direction: column;
+    gap: var(--company-space-16px);
+  }
+
+  .company-filter-form--inline .company-filter-form__actions,
+  .company-filter-form--labeled .company-filter-form__actions {
+    margin-left: 0;
+  }
+
+  .company-filter-form__actions {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 720px) {
+  .company-form--left .ant-form-item-row,
+  .company-form--right .ant-form-item-row {
+    grid-template-columns: 1fr;
+    row-gap: var(--company-space-8px);
+  }
+
+  .company-form--left .ant-form-item-label,
+  .company-form--right .ant-form-item-label {
+    width: 100%;
+    padding: 0;
+  }
+
+  .company-form--right .ant-form-item-label > label {
+    justify-content: flex-start;
+  }
+
+  .company-categorized-form__actions {
+    padding-left: 0;
+  }
+
+  .company-filter-form--inline .company-filter-form__fields,
+  .company-filter-form--labeled .company-filter-form__fields,
+  .company-filter-form--section .company-filter-form__fields {
+    grid-template-columns: 1fr;
+  }
+
+  .company-search-bar {
+    min-width: 0;
+  }
+
+  .company-dynamic-form__entry {
+    grid-template-columns: 1fr 1fr;
+  }
+}

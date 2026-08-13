@@ -1,0 +1,124 @@
+.company-button.ant-btn {
+  height: var(--company-control-height);
+  min-width: calc(var(--company-control-height) + 56px);
+  padding-inline: var(--company-control-padding);
+  gap: var(--company-space-4px);
+  border-radius: var(--company-control-radius);
+  font-size: var(--company-control-font-size);
+  font-weight: 400;
+  line-height: var(--company-control-line-height);
+  box-shadow: none;
+}
+
+.company-button.ant-btn .company-icon {
+  width: var(--company-control-icon-size);
+  height: var(--company-control-icon-size);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--company-control-icon-size);
+  line-height: var(--company-control-icon-size);
+}
+
+.company-button.ant-btn.ant-btn-icon-only {
+  width: var(--company-control-height);
+  min-width: var(--company-control-height);
+  padding: calc((var(--company-control-height) - var(--company-control-icon-size)) / 2);
+}
+
+.company-button-primary.ant-btn {
+  color: #fff;
+  border-color: var(--company-brand, #00ab7a);
+  background: var(--company-brand, #00ab7a);
+}
+
+.company-button-primary.ant-btn:not(:disabled):hover {
+  color: #fff;
+  border-color: var(--company-brand-hover, #1db887);
+  background: var(--company-brand-hover, #1db887);
+}
+
+.company-button-primary.ant-btn:not(:disabled):active {
+  color: #fff;
+  border-color: var(--company-brand-active, #039972);
+  background: var(--company-brand-active, #039972);
+}
+
+.company-button-secondary.ant-btn {
+  color: var(--company-brand, #00ab7a);
+  border-color: var(--company-brand, #00ab7a);
+  background: var(--company-surface, #fff);
+}
+
+.company-button-secondary.ant-btn:not(:disabled):hover {
+  color: var(--company-brand-hover, #1db887);
+  border-color: var(--company-brand-hover, #1db887);
+  background: var(--company-surface, #fff);
+}
+
+.company-button-secondary.ant-btn:not(:disabled):active {
+  color: var(--company-brand-active, #039972);
+  border-color: var(--company-brand-active, #039972);
+  background: var(--company-surface, #fff);
+}
+
+.company-button-auxiliary.ant-btn {
+  color: var(--company-text, #242933);
+  border-color: var(--company-border, #dfe1e6);
+  background: var(--company-surface, #fff);
+}
+
+.company-button-auxiliary.ant-btn:not(:disabled):hover {
+  color: var(--company-brand-hover, #1db887);
+  border-color: var(--company-brand-hover, #1db887);
+  background: var(--company-surface, #fff);
+}
+
+.company-button-auxiliary.ant-btn:not(:disabled):active {
+  color: var(--company-brand-active, #039972);
+  border-color: var(--company-brand-active, #039972);
+  background: var(--company-surface, #fff);
+}
+
+.company-button-text.ant-btn {
+  min-width: calc(var(--company-control-height) + 40px);
+  padding-inline: calc(var(--company-control-padding) / 2);
+  color: var(--company-brand-active, #039972);
+  border-color: transparent;
+  background: transparent;
+}
+
+.company-button-text.ant-btn:not(:disabled):hover {
+  color: var(--company-brand-hover, #1db887);
+  border-color: transparent;
+  background: transparent;
+}
+
+.company-button-text.ant-btn:not(:disabled):active {
+  color: var(--company-brand-active, #008563);
+  border-color: transparent;
+  background: transparent;
+}
+
+.company-button-primary.ant-btn-dangerous:not(:disabled) {
+  color: #fff;
+  border-color: var(--company-danger, #f0131e);
+  background: var(--company-danger, #f0131e);
+}
+
+.company-button-secondary.ant-btn-dangerous:not(:disabled),
+.company-button-auxiliary.ant-btn-dangerous:not(:disabled) {
+  color: var(--company-danger, #f0131e);
+  border-color: var(--company-danger, #f0131e);
+  background: var(--company-surface, #fff);
+}
+
+.company-button-text.ant-btn-dangerous:not(:disabled) {
+  color: var(--company-danger, #f0131e);
+}
+
+.company-button.ant-btn:disabled {
+  color: var(--company-text-disabled, #aeb2b8);
+  border-color: var(--company-divider, #e8eaed);
+  background: var(--company-fill, #f2f3f5);
+}

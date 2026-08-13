@@ -1,0 +1,18 @@
+.company-page-header {
+  width: 100%;
+  min-height: 48px;
+  padding: 0 var(--company-space-16px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--company-space-16px);
+  border: 1px solid var(--company-divider, #e8eaed);
+  border-radius: var(--company-container-radius);
+  background: var(--company-surface, #fff);
+}
+
+.company-page-header__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--company-space-8px);
+}

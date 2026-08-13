@@ -1,0 +1,151 @@
+.company-cascader {
+  --company-cascader-height: var(--company-control-height);
+  --company-cascader-padding: var(--company-space-12px);
+  --company-cascader-font-size: var(--company-control-font-size);
+  --company-cascader-line-height: var(--company-control-line-height);
+  --company-cascader-radius: var(--company-control-radius);
+  width: 240px;
+  max-width: 100%;
+  height: var(--company-cascader-height) !important;
+  border-color: var(--company-border, #dfe1e6) !important;
+  border-radius: var(--company-cascader-radius) !important;
+  background: var(--company-surface, #fff) !important;
+  box-shadow: none !important;
+}
+
+.company-cascader--compact {
+  --company-cascader-height: 24px;
+  --company-cascader-padding: var(--company-space-8px);
+  --company-cascader-font-size: 12px;
+  --company-cascader-line-height: 20px;
+  --company-cascader-radius: var(--company-radius-sm);
+}
+
+.company-cascader--regular {
+  --company-cascader-height: 32px;
+  --company-cascader-padding: var(--company-space-12px);
+  --company-cascader-font-size: 14px;
+  --company-cascader-line-height: 22px;
+  --company-cascader-radius: var(--company-radius-md);
+}
+
+.company-cascader--loose {
+  --company-cascader-height: 40px;
+  --company-cascader-padding: var(--company-space-12px);
+  --company-cascader-font-size: 16px;
+  --company-cascader-line-height: 28px;
+  --company-cascader-radius: var(--company-radius-lg);
+}
+
+.company-cascader .ant-select-selector {
+  height: var(--company-cascader-height) !important;
+  padding-inline: var(--company-cascader-padding) !important;
+  border-color: var(--company-border, #dfe1e6) !important;
+  border-radius: var(--company-cascader-radius) !important;
+  background: var(--company-surface, #fff) !important;
+  box-shadow: none !important;
+}
+
+.company-cascader .ant-select-selection-wrap,
+.company-cascader .ant-select-selection-search-input {
+  height: calc(var(--company-cascader-height) - 2px) !important;
+}
+
+.company-cascader .ant-select-selection-placeholder,
+.company-cascader .ant-select-selection-item,
+.company-cascader .ant-select-placeholder,
+.company-cascader .ant-select-content-value {
+  color: var(--company-text, #242933);
+  font-size: var(--company-cascader-font-size);
+  line-height: var(--company-cascader-line-height);
+}
+
+.company-cascader .ant-select-selection-placeholder,
+.company-cascader .ant-select-placeholder {
+  color: var(--company-text-disabled, #aeb2b8);
+}
+
+.company-cascader .ant-select-arrow,
+.company-cascader .ant-select-suffix {
+  width: 16px;
+  height: 16px;
+  color: var(--company-text-secondary, #525966);
+  font-size: 16px;
+}
+
+.company-cascader:not(.ant-select-disabled):hover .ant-select-selector,
+.company-cascader.is-hover .ant-select-selector,
+.company-cascader.is-focused .ant-select-selector,
+.company-cascader.ant-select-focused .ant-select-selector {
+  border-color: var(--company-brand, #00ab7a) !important;
+  box-shadow: var(--company-focus-shadow, 0 0 0 2px #d9f4ee) !important;
+}
+
+.company-cascader:not(.ant-select-disabled):hover,
+.company-cascader.is-hover,
+.company-cascader.is-focused,
+.company-cascader.ant-select-focused {
+  border-color: var(--company-brand, #00ab7a) !important;
+  box-shadow: var(--company-focus-shadow, 0 0 0 2px #d9f4ee) !important;
+}
+
+.company-cascader.ant-select-disabled .ant-select-selector {
+  border-color: var(--company-divider, #e8eaed) !important;
+  background: var(--company-surface-muted, #f8f9fa) !important;
+}
+
+.company-cascader.ant-select-disabled {
+  border-color: var(--company-divider, #e8eaed) !important;
+  background: var(--company-surface-muted, #f8f9fa) !important;
+  box-shadow: none !important;
+}
+
+.company-cascader.is-error .ant-select-selector,
+.company-cascader.ant-select-status-error .ant-select-selector {
+  border-color: var(--company-danger, #f0131e) !important;
+}
+
+.company-cascader.is-error,
+.company-cascader.ant-select-status-error {
+  border-color: var(--company-danger, #f0131e) !important;
+  box-shadow: none !important;
+}
+
+.company-cascader-dropdown .ant-cascader-menus {
+  height: 160px;
+  border-radius: var(--company-radius-md);
+  background: var(--company-surface, #fff);
+  box-shadow: var(--company-card-shadow);
+  overflow: hidden;
+}
+
+.company-cascader-dropdown .ant-cascader-menu {
+  width: 120px;
+  height: 160px;
+  padding-block: var(--company-space-4px);
+  border-inline-end: 1px solid var(--company-divider, #e8eaed);
+}
+
+.company-cascader-dropdown .ant-cascader-menu:last-child {
+  border-inline-end: 0;
+}
+
+.company-cascader-dropdown .ant-cascader-menu-item {
+  min-height: 32px;
+  padding: var(--company-space-5px) var(--company-space-12px);
+  gap: var(--company-space-8px);
+  border-radius: 0;
+  color: var(--company-text, #242933);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.company-cascader-dropdown .ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled),
+.company-cascader-dropdown .ant-cascader-menu-item-expand-active:not(.ant-cascader-menu-item-disabled) {
+  font-weight: 400;
+  background: var(--company-brand-soft, #d9f4ee);
+}
+
+.company-cascader-dropdown .ant-cascader-menu-item-expand-icon {
+  color: var(--company-text-secondary, #525966);
+}

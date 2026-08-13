@@ -1,0 +1,14 @@
+{
+  "name": "@company/theme",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": { "typecheck": "tsc -p tsconfig.json --noEmit" },
+  "dependencies": { "antd": "6.5.3" },
+  "peerDependencies": { "react": ">=18.0.0" },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}
