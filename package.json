@@ -11,6 +11,9 @@
     "dev:preview": "pnpm --filter @admin-platform/preview dev",
     "build": "pnpm --filter @company/charts build && pnpm --filter @admin-platform/admin build && pnpm --filter @admin-platform/preview build",
     "build:preview": "pnpm --filter @admin-platform/preview build",
-    "typecheck": "pnpm -r --if-present typecheck"
+    "typecheck": "pnpm -r --if-present typecheck",
+    "check": "pnpm typecheck && pnpm build",
+    "worktree:create": "bash scripts/create-worktree.sh",
+    "worktree:list": "git worktree list"
   }
 }
