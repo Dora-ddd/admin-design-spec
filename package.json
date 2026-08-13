@@ -9,6 +9,9 @@
   "scripts": {
     "dev": "pnpm --filter @admin-platform/admin dev",
     "build": "pnpm --filter @company/charts build && pnpm --filter @admin-platform/admin build",
-    "typecheck": "pnpm -r --if-present typecheck"
+    "typecheck": "pnpm -r --if-present typecheck",
+    "check": "pnpm typecheck && pnpm build",
+    "worktree:create": "bash scripts/create-worktree.sh",
+    "worktree:list": "git worktree list"
   }
 }
