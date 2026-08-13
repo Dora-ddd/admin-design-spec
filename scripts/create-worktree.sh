@@ -30,7 +30,14 @@ if [[ -e "$target_dir" ]]; then
   exit 1
 fi
 
-git -C "$repo_root" fetch origin main
+git -C "$repo_root" fetch --prune origin
+
+if git -C "$repo_root" show-ref --verify --quiet "refs/remotes/origin/$branch_name"; then
+  echo "远端分支已存在: origin/$branch_name" >&2
+  echo "请使用: git worktree add $(printf '%q' "$target_dir") $branch_name" >&2
+  exit 1
+fi
+
 git -C "$repo_root" worktree add -b "$branch_name" "$target_dir" origin/main
 
 echo "Worktree 已创建:"

@@ -247,11 +247,11 @@ export function CompanySuperSender({
     attachmentsRef.current = attachments;
   }, [attachments]);
 
-  useEffect(() => setQuoteVisible(Boolean(quote)), [quote?.id, quote?.text]);
+  useEffect(() => setQuoteVisible(Boolean(quote)), [quote]);
   useEffect(() => {
     setSkillVisible(Boolean(skill));
     setSkillValues(Object.fromEntries(skill?.slots?.map((slot) => [slot.key, slot.defaultValue ?? '']) ?? []));
-  }, [skill?.key]);
+  }, [skill]);
 
   useEffect(() => {
     if (!fullscreen) return undefined;

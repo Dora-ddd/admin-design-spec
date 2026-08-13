@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 import type { CSSProperties } from 'react';
 import { Button, Input, Tooltip } from 'antd';
 import { CompanyIcon, companyIcons } from '../../iconResources';
@@ -83,11 +83,11 @@ export function CompanySentMessage({
   onEditingChange,
   onExpandedChange,
 }: CompanySentMessageProps) {
-  const initialHistory = useMemo(() => {
+  const [initialHistory] = useState(() => {
     const history = defaultHistory.filter(Boolean);
     if (defaultValue && history.at(-1) !== defaultValue) history.push(defaultValue);
     return history.length > 0 ? history : defaultValue ? [defaultValue] : [];
-  }, []);
+  });
   const [messageValue, setMessageValue] = useControllableState(controlledValue, defaultValue, onChange);
   const [editing, setEditing] = useControllableState(controlledEditing, defaultEditing, onEditingChange);
   const [expanded, setExpanded] = useControllableState(controlledExpanded, defaultExpanded, onExpandedChange);
