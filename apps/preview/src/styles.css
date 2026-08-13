@@ -208,6 +208,15 @@ body, .ant-app { font-size: 14px; }
 .component-source-grid .ant-typography { margin: 0; overflow-wrap: anywhere; }
 .component-code-section pre { max-height: 420px; margin: 0; padding: var(--company-space-20px); overflow: auto; color: var(--company-text, #242933); background: var(--company-page-bg, #f8f9fa); font: 13px/1.65 SFMono-Regular, Consolas, 'Liberation Mono', monospace; tab-size: 2; }
 .component-code-section code { white-space: pre; }
+.component-development-section { min-width: 0; margin-top: var(--company-space-24px); border: 1px solid var(--company-divider, #e8eaed); border-radius: var(--company-container-radius); overflow: hidden; }
+.component-development-section .component-section-title { min-height: 48px; padding: 0 var(--company-space-16px); display: flex; align-items: center; justify-content: space-between; gap: var(--company-space-12px); border-bottom: 1px solid var(--company-divider, #e8eaed); }
+.component-reference-list { margin: 0; padding: var(--company-space-16px); display: grid; gap: var(--company-space-12px); }
+.component-reference-list > div { min-width: 0; display: grid; grid-template-columns: 80px minmax(0, 1fr); align-items: start; gap: var(--company-space-12px); }
+.component-reference-list dt { color: var(--company-text-secondary, #525966); line-height: 22px; }
+.component-reference-list dd { min-width: 0; margin: 0; }
+.component-reference-list code { display: block; overflow-wrap: anywhere; color: var(--company-text, #242933); font: 12px/22px SFMono-Regular, Consolas, monospace; }
+.component-code-snippet { max-height: 360px; margin: 0; padding: var(--company-space-16px); overflow: auto; border-top: 1px solid var(--company-divider, #e8eaed); color: var(--company-text, #242933); background: var(--company-page-bg, #f8f9fa); font: 12px/20px SFMono-Regular, Consolas, monospace; tab-size: 2; }
+.component-code-snippet code { white-space: pre; }
 .product-showroom-section { min-width: 0; overflow: hidden; border: 1px solid var(--company-divider, #e8eaed); border-radius: var(--company-container-radius); background: var(--company-surface, #fff); }
 .product-showroom-heading { min-height: 72px; padding: var(--company-space-12px) var(--company-space-16px); display: flex; align-items: center; justify-content: space-between; gap: var(--company-space-16px); border-bottom: 1px solid var(--company-divider, #e8eaed); }
 .product-showroom-heading h3 { margin: 0 0 var(--company-space-4px); }

@@ -286,7 +286,7 @@ const entries: ComponentCatalogEntry[] = [
     title: '全局样式',
     name: 'Global Style',
     description: '页面字体、背景、滚动条、基础字号和品牌色 CSS 变量的统一入口。',
-    docRef: 'design-system-spec.md / 2. 内容区域结构规范、3. 间距与布局规范、4. 字体与排版规范',
+    docRef: 'docs/specs/design-system-spec.md / 2. 内容区域结构规范、3. 间距与布局规范、4. 字体与排版规范',
     codeRef: 'packages/ui/src/components/surface/CompanySurface.tsx',
     code: cssCode(`body { background: var(--company-page-bg); color: var(--company-text); font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; }
 ::-webkit-scrollbar { width: 4px; height: 4px; }
@@ -298,7 +298,7 @@ const entries: ComponentCatalogEntry[] = [
     title: '业务页面架构',
     name: 'Business Layout',
     description: '内容容器承载业务容器，业务容器内组织搜索、工具栏、表格、分页和状态内容。',
-    docRef: 'design-system-spec.md / 2.1 标准业务内容区、3.4 容器布局、7.1 列表页',
+    docRef: 'docs/specs/design-system-spec.md / 2.1 标准业务内容区、3.4 容器布局、7.1 列表页',
     codeRef: 'packages/ui/src/components/business-layout/CompanyBusinessLayout.tsx',
     code: `<Layout className="app-layout">
   <Sider width={224} theme="light" />
@@ -314,7 +314,7 @@ const entries: ComponentCatalogEntry[] = [
     title: '列表页样板',
     name: 'List Page',
     description: '搜索、工具栏、表格和分页形成稳定区域，数据滚动由表格主体承接，并覆盖正常、加载、空和异常状态。',
-    docRef: 'design-system-spec.md / 页面选型决策表、3.5 滚动策略、7.1 列表页、8.2-8.5 状态反馈',
+    docRef: 'docs/specs/design-system-spec.md / 页面选型决策表、3.5 滚动策略、7.1 列表页、8.2-8.5 状态反馈',
     codeRef: `${patternSource} / ListPagePatternPreview`,
     code: `function ListPagePatternPreview() {
   const [state, setState] = useState<'normal' | 'loading' | 'empty' | 'error'>('normal');
@@ -343,7 +343,7 @@ const entries: ComponentCatalogEntry[] = [
     title: '搜索区',
     name: 'Search Panel',
     description: '统一承载搜索字段、搜索与清空操作；业务页面只传入字段、受控值和查询回调。',
-    docRef: 'design-system-spec.md / 7.1 列表页搜索区',
+    docRef: 'docs/specs/design-system-spec.md / 7.1 列表页搜索区',
     codeRef: 'packages/ui/src/components/search-panel/CompanySearchPanel.tsx',
     code: `<CompanySearchPanel onSearch={loadData} onReset={resetFilters}>
   <CompanySearchField label="事件名称"><Input /></CompanySearchField>
@@ -356,7 +356,7 @@ const entries: ComponentCatalogEntry[] = [
     title: '表单页样板',
     name: 'Form Drawer',
     description: '6 个常规录入项使用 560px 单列抽屉，标题和底部操作区固定，内容区滚动，并拦截未保存离开操作。',
-    docRef: 'design-system-spec.md / 页面选型决策表、2.3 对话框与抽屉、7.2 表单页、8.6 Confirm',
+    docRef: 'docs/specs/design-system-spec.md / 页面选型决策表、2.3 对话框与抽屉、7.2 表单页、8.6 Confirm',
     codeRef: `${patternSource} / FormPagePatternPreview`,
     code: `<Drawer
   title="新建终端防护策略"
@@ -380,7 +380,7 @@ const entries: ComponentCatalogEntry[] = [
     title: '详情页样板',
     name: 'Detail Drawer',
     description: '详情抽屉包含标题浏览控制、摘要和按业务顺序组织的信息分组，不设置底部操作区。',
-    docRef: 'design-system-spec.md / 2.3 对话框与抽屉、3.5 滚动策略、7.3 详情页',
+    docRef: 'docs/specs/design-system-spec.md / 2.3 对话框与抽屉、3.5 滚动策略、7.3 详情页',
     codeRef: `${patternSource} / DetailPagePatternPreview`,
     code: `<Drawer
   title="安全事件详情"
@@ -399,7 +399,7 @@ const entries: ComponentCatalogEntry[] = [
     title: 'Dashboard 样板',
     name: 'Dashboard',
     description: '核心指标、趋势和风险分布按 12 栅格向下延展，指标卡使用工程内三维图标并作为业务入口。',
-    docRef: 'design-system-spec.md / 6.7 基础数据统计卡片、7.4 工作台 / Dashboard',
+    docRef: 'docs/specs/design-system-spec.md / 6.7 基础数据统计卡片、7.4 工作台 / Dashboard',
     codeRef: `${patternSource} / DashboardPatternPreview`,
     code: `<div className="pattern-metric-group">
   {metrics.map((metric) => (
@@ -417,8 +417,8 @@ const entries: ComponentCatalogEntry[] = [
     title: '图标 Icon',
     name: 'Icon',
     description: '图标用于稳定语义识别，纯图标按钮需要 Tooltip 或 aria-label。',
-    docRef: 'icon-resources.md / 4. 图标 class 使用规则；design-system-spec.md / 7.7 图标密集页',
-    codeRef: 'icon-resources.md / Iconfont 项目 5177816',
+    docRef: 'docs/specs/icon-resources.md / 4. 图标 class 使用规则；docs/specs/design-system-spec.md / 7.7 图标密集页',
+    codeRef: 'docs/specs/icon-resources.md / Iconfont 项目 5177816',
     code: `<CompanyIcon type={companyIcons.search} />
 <CompanyIcon type={companyIcons.setting} />
 <CompanyIcon type={companyIcons.message} />`,
@@ -641,7 +641,7 @@ const entries: ComponentCatalogEntry[] = [
     title: '下拉菜单 Dropdown',
     name: 'Dropdown',
     description: '用于操作收纳和更多菜单，弹层 hover/active 背景保持一致。',
-    docRef: 'design-system-spec.md / 6.2 按钮、7.1 工具栏要求',
+    docRef: 'docs/specs/design-system-spec.md / 6.2 按钮、7.1 工具栏要求',
     codeRef: sourceTheme('Dropdown'),
     code: themeCode('Dropdown', `  paddingBlock: COMPANY_SPACE[4],
   controlItemBgHover: token.colorFillContentHover,
@@ -654,7 +654,7 @@ const entries: ComponentCatalogEntry[] = [
     title: '分页 Pagination',
     name: 'Pagination',
     description: '分页区位于表格底部右侧，正常数据态展示，Loading/empty/error 隐藏。',
-    docRef: 'design-system-spec.md / 6.5 分页（Pagination）',
+    docRef: 'docs/specs/design-system-spec.md / 6.5 分页（Pagination）',
     codeRef: sourceTheme('Pagination'),
     code: themeCode('Pagination', `  itemSize: 32,
   itemActiveBg: token.colorPrimaryBg,
@@ -667,7 +667,7 @@ const entries: ComponentCatalogEntry[] = [
     title: '步骤条 Steps',
     name: 'Steps',
     description: '用于有明确先后依赖的流程，当前步骤与完成状态需要稳定表达。',
-    docRef: 'design-system-spec.md / 7.5 分步流程页',
+    docRef: 'docs/specs/design-system-spec.md / 7.5 分步流程页',
     codeRef: sourceTheme('Steps'),
     code: themeCode('Steps', `  iconSize: 32,
   iconFontSize: 16,
@@ -680,7 +680,7 @@ const entries: ComponentCatalogEntry[] = [
     title: '面包屑 Breadcrumb',
     name: 'Breadcrumb',
     description: '用于表达当前位置，末级文字使用正文色，前级链接使用次要文字色。',
-    docRef: 'design-system-spec.md / 7. 页面类型设计规范、9. 设计输出要求',
+    docRef: 'docs/specs/design-system-spec.md / 7. 页面类型设计规范、9. 设计输出要求',
     codeRef: sourceTheme('Breadcrumb'),
     code: themeCode('Breadcrumb', `  itemColor: token.colorTextTertiary,
   linkColor: token.colorTextSecondary,
@@ -693,7 +693,7 @@ const entries: ComponentCatalogEntry[] = [
     title: '导航菜单 Menu',
     name: 'Menu',
     description: '导航选中态使用品牌浅色背景和主色文字，保证当前页面位置明确。',
-    docRef: 'design-system-spec.md / 7. 页面类型设计规范',
+    docRef: 'docs/specs/design-system-spec.md / 7. 页面类型设计规范',
     codeRef: sourceTheme('Menu'),
     code: themeCode('Menu', `  itemSelectedColor: token.colorPrimary,
   itemSelectedBg: token.colorPrimaryBg,
@@ -706,7 +706,7 @@ const entries: ComponentCatalogEntry[] = [
     title: '页头 PageHeader',
     name: 'PageHeader',
     description: '页头承载标题、面包屑和页面级操作，操作区与标题区保持稳定。',
-    docRef: 'design-system-spec.md / 7. 页面类型设计规范',
+    docRef: 'docs/specs/design-system-spec.md / 7. 页面类型设计规范',
     codeRef: 'packages/ui/src/components/page-header/CompanyPageHeader.tsx',
     code: `<Header className="app-header">
   <Breadcrumb items={[{ title: '组件资源' }, { title }]} />
@@ -722,7 +722,7 @@ const entries: ComponentCatalogEntry[] = [
     title: '标签页 Tabs',
     name: 'Tabs',
     description: '用于同级内容切换，选中态使用品牌主色和底部指示线。',
-    docRef: 'design-system-spec.md / 7.2 表单页、Tabs 切换',
+    docRef: 'docs/specs/design-system-spec.md / 7.2 表单页、Tabs 切换',
     codeRef: sourceTheme('Tabs'),
     code: themeCode('Tabs', `  inkBarColor: token.colorPrimary,
   itemColor: token.colorTextSecondary,
@@ -895,7 +895,7 @@ const entries: ComponentCatalogEntry[] = [
     title: '警告提示 Alert',
     name: 'Alert',
     description: '用于页面内可见提示和风险说明，语义色根据 success/warning/error/info 映射。',
-    docRef: 'design-system-spec.md / 8. 交互状态与反馈规范',
+    docRef: 'docs/specs/design-system-spec.md / 8. 交互状态与反馈规范',
     codeRef: sourceTheme('Alert'),
     code: themeCode('Alert', `  defaultPadding: \`\${COMPANY_SPACE[9]}px \${COMPANY_SPACE[12]}px\`,
   withDescriptionPadding: \`\${COMPANY_SPACE[16]}px\`,
@@ -907,7 +907,7 @@ const entries: ComponentCatalogEntry[] = [
     title: '全局提示 Message',
     name: 'Message',
     description: '用于操作结果的轻量反馈，文案需说明成功、失败或处理中状态。',
-    docRef: 'design-system-spec.md / 8.5 Success / Failure',
+    docRef: 'docs/specs/design-system-spec.md / 8.5 Success / Failure',
     codeRef: `${appSource} / AntdApp.useApp().message`,
     code: `const { message: appMessage } = AntdApp.useApp();
 appMessage.success('安全策略已创建');`,
@@ -918,7 +918,7 @@ appMessage.success('安全策略已创建');`,
     title: '通知提醒框 Notification',
     name: 'Notification',
     description: '用于更完整的系统级提醒，需要标题、正文和明确状态。',
-    docRef: 'design-system-spec.md / 8. 交互状态与反馈规范',
+    docRef: 'docs/specs/design-system-spec.md / 8. 交互状态与反馈规范',
     codeRef: `${appSource} / Antd App context`,
     code: `<AntApp>
   <App />
@@ -930,7 +930,7 @@ appMessage.success('安全策略已创建');`,
     title: '对话框 Modal',
     name: 'Modal',
     description: '对话框用于少量确认或轻量补充信息，标题、内容和底部操作区清晰分离。',
-    docRef: 'design-system-spec.md / 2.3 对话框与抽屉、6.8 对话框',
+    docRef: 'docs/specs/design-system-spec.md / 2.3 对话框与抽屉、6.8 对话框',
     codeRef: sourceTheme('Modal'),
     code: themeCode('Modal', `  headerBg: token.colorBgContainer,
   contentBg: token.colorBgContainer,
@@ -943,7 +943,7 @@ appMessage.success('安全策略已创建');`,
     title: '气泡确认框 Popconfirm',
     name: 'Popconfirm',
     description: '用于局部轻量确认；删除、禁用等高风险操作仍需明确影响说明。',
-    docRef: 'design-system-spec.md / 8.6 Confirm',
+    docRef: 'docs/specs/design-system-spec.md / 8.6 Confirm',
     codeRef: `${appSource} / Popconfirm usage pattern`,
     code: `<Popconfirm title="确认删除该项？" okText="确定" cancelText="取消">
   <Button danger>删除</Button>
@@ -955,7 +955,7 @@ appMessage.success('安全策略已创建');`,
     title: '抽屉 Drawer',
     name: 'Drawer',
     description: '抽屉用于详情查看、复杂编辑和上下文连续操作，宽度按复杂度选择 560/880/80%。',
-    docRef: 'design-system-spec.md / 2.3 对话框与抽屉、7.2 抽屉表单要求',
+    docRef: 'docs/specs/design-system-spec.md / 2.3 对话框与抽屉、7.2 抽屉表单要求',
     codeRef: sourceTheme('Drawer'),
     code: themeCode('Drawer', `  zIndexPopup: 1050,
   footerPaddingBlock: COMPANY_SPACE[12],
@@ -967,7 +967,7 @@ appMessage.success('安全策略已创建');`,
     title: '进度 Progress',
     name: 'Progress',
     description: '用于进度、覆盖率和完成度表达，轨道色使用分割线灰阶。',
-    docRef: 'design-system-spec.md / 8.2 Loading、7.4 工作台 / Dashboard',
+    docRef: 'docs/specs/design-system-spec.md / 8.2 Loading、7.4 工作台 / Dashboard',
     codeRef: sourceTheme('Progress'),
     code: themeCode('Progress', `  defaultColor: token.colorPrimary,
   remainingColor: token.colorBorderSecondary,
@@ -979,7 +979,7 @@ appMessage.success('安全策略已创建');`,
     title: '加载动效 Loading Ring',
     name: 'CompanyLoadingRing',
     description: '蓝色圆弧沿灰色底环持续旋转，用于发送、请求和内容加载状态。',
-    docRef: 'design-system-spec.md / 8.2 Loading',
+    docRef: 'docs/specs/design-system-spec.md / 8.2 Loading',
     codeRef: 'packages/ui/src/components/loading/CompanyLoadingRing.tsx',
     code: `<CompanyLoadingRing size={16} ariaLabel="数据加载中" />`,
     preview: <LoadingRingShowcase />,
@@ -989,7 +989,7 @@ appMessage.success('安全策略已创建');`,
     title: '异常界面',
     name: 'Exception',
     description: '异常状态应说明原因并提供可恢复操作，例如重试或返回。',
-    docRef: 'design-system-spec.md / 8.4 Error、7.6 异常页',
+    docRef: 'docs/specs/design-system-spec.md / 8.4 Error、7.6 异常页',
     codeRef: 'packages/ui/src/components/status-state/CompanyStatusState.tsx',
     code: `<img src="/assets/visual/error-server.svg" alt="服务器连接失败" />`,
     preview: <CompanyExceptionState image="/assets/visual/error-server.svg" title="服务器连接失败" actionLabel="重新连接" />,
@@ -999,7 +999,7 @@ appMessage.success('安全策略已创建');`,
     title: '空状态 Empty',
     name: 'Empty',
     description: '列表空状态保留表头，内容区展示明确提示，分页隐藏。',
-    docRef: 'design-system-spec.md / 8.3 Empty',
+    docRef: 'docs/specs/design-system-spec.md / 8.3 Empty',
     codeRef: '视觉资源 / 缺省图 / 通用类暂无数据.svg',
     code: `<Empty image="/assets/visual/empty-general.svg" description="暂无更多数据" />`,
     preview: <AntdVariantPreview kind="empty" />,
@@ -1009,7 +1009,7 @@ appMessage.success('安全策略已创建');`,
     title: '数据加载',
     name: 'Data Loading',
     description: '用于表格刷新、筛选、排序和分页期间的数据加载反馈。',
-    docRef: 'design-system-spec.md / 8.2 Loading、7.1 列表页状态要求',
+    docRef: 'docs/specs/design-system-spec.md / 8.2 Loading、7.1 列表页状态要求',
     codeRef: 'packages/ui/src/components/status-state/CompanyStatusState.tsx',
     code: `<div className="data-loading"><img src="/assets/visual/loading.gif" alt="数据加载中" /></div>`,
     preview: <CompanyDataLoadingState columns={['字段', '状态', '更新时间']} image="/assets/visual/loading.gif" />,
@@ -1030,11 +1030,14 @@ const assetPreviewKeys = new Set(['icon-3d', 'exception', 'data-loading']);
 const staticPreviewKeys = new Set<string>();
 
 export function getComponentSourceInfo(key: string): { kind: ComponentSourceKind; label: string; standalone: boolean } {
-  if (companyComponentKeys.has(key)) return { kind: 'company', label: '已封装组件', standalone: true };
+  const entry = byKey[key];
+  if (companyComponentKeys.has(key) || entry?.codeRef.startsWith('packages/ui/')) {
+    return { kind: 'company', label: '工程封装组件', standalone: true };
+  }
   if (composedPreviewKeys.has(key)) return { kind: 'composed', label: '工程组件组合示例', standalone: false };
   if (assetPreviewKeys.has(key)) return { kind: 'asset', label: '视觉资源库', standalone: false };
   if (staticPreviewKeys.has(key)) return { kind: 'static', label: '模拟示例', standalone: false };
-  return { kind: 'antd', label: '工程组件', standalone: true };
+  return { kind: 'antd', label: 'Ant Design 工程组件', standalone: true };
 }
 
 export const componentGroups: ComponentCatalogGroup[] = [

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react';
 import type { Key } from 'react';
 import { Prompts, Sources, Think, ThoughtChain, Welcome } from '@ant-design/x';
 import XMarkdown from '@ant-design/x-markdown';
@@ -25,14 +25,12 @@ import {
   Drawer,
   Dropdown,
   Empty,
-  Flex,
   Form,
   Input,
   Layout,
   Menu,
   Modal,
   Pagination,
-  Progress,
   Radio,
   Row,
   Segmented,
@@ -42,7 +40,6 @@ import {
   Steps,
   Switch,
   Table,
-  Tabs,
   Tag,
   Timeline,
   Tooltip,
@@ -50,7 +47,6 @@ import {
   theme,
 } from 'antd';
 import type { MenuProps, TableProps } from 'antd';
-import { componentCatalogByKey, componentGroups, defaultComponentKey, getComponentSourceInfo, type ComponentCatalogEntry, type ComponentCatalogGroup } from './componentCatalog';
 import { CompanySuperSender, type CompanySuperSenderProps, type SuperSenderAttachment, type SuperSenderOption, type SuperSenderQuote } from '@company/ui/super-sender';
 import { CompanySentMessage, type SentMessageFile } from '@company/ui/sent-message';
 import { CompanyAIOutput, type AIOutputMedia } from '@company/ui/ai-output';
@@ -72,9 +68,12 @@ import {
 import { TerminalRansomwarePage } from './pages/terminal/components/TerminalRansomwarePage';
 import { CompanyIcon, companyIcons } from '@company/ui/icons';
 import { COMPANY_SPACE, DENSITY_LABELS, DENSITY_MODES, THEME_MODES, type DensityMode, type ThemeMode } from '@company/theme';
+import { isShowroomExitKey, parseShowroomSample, updateShowroomSampleUrl, type ShowroomSample } from './showroomState';
 
 const { Header, Sider, Content } = Layout;
 const { Title, Text, Paragraph } = Typography;
+
+const ComponentShowcasePage = lazy(() => import('./pages/components/ComponentShowcasePage'));
 
 function AIIdentity({ compact = false }: { compact?: boolean }) {
   return <span className={`ai-identity ${compact ? 'compact' : ''}`}>AI</span>;
@@ -352,58 +351,13 @@ function ChartComponents({ paletteMode }: { paletteMode: ChartPaletteMode }) {
   </div>;
 }
 
-function isCatalogGroup(item: ComponentCatalogGroup | ComponentCatalogEntry): item is ComponentCatalogGroup {
-  return 'children' in item;
-}
-
-function hasCatalogNameInTitle(item: ComponentCatalogEntry) {
-  const normalize = (value: string) => value
-    .toLocaleLowerCase()
-    .replace(/[^\p{L}\p{N}]+/gu, ' ')
-    .trim();
-  const title = ` ${normalize(item.title)} `;
-  const name = normalize(item.name);
-
-  return name.length > 0 && title.includes(` ${name} `);
-}
-
-function CatalogTree({ items, activeKey, onSelect, depth = 0 }: { items: Array<ComponentCatalogGroup | ComponentCatalogEntry>; activeKey: string; onSelect: (key: string) => void; depth?: number }) {
-  return <div className="component-catalog-level">
-    {items.map((item) => {
-      if (isCatalogGroup(item)) {
-        return <details className="component-catalog-group" open key={item.key}>
-          <summary style={{ paddingLeft: `calc(${depth} * var(--company-space-18px))` }}><CompanyIcon type={companyIcons.down} /><span>{item.title}</span></summary>
-          <CatalogTree items={item.children} activeKey={activeKey} onSelect={onSelect} depth={depth + 1} />
-        </details>;
-      }
-
-      return <button
-        type="button"
-        key={item.key}
-        className={`component-catalog-leaf ${activeKey === item.key ? 'active' : ''}`}
-        style={{ paddingLeft: `calc(${depth} * var(--company-space-18px) + var(--company-space-24px))` }}
-        onClick={() => onSelect(item.key)}
-      >
-        {item.title} {!hasCatalogNameInTitle(item) && <span>{item.name}</span>}
-      </button>;
-    })}
-  </div>;
-}
-
-type ShowroomSample = 'generic' | 'terminal';
-
 function ProductShowroom() {
   const [showroomFullscreen, setShowroomFullscreen] = useState(false);
-  const [activeSample, setActiveSample] = useState<ShowroomSample>(() => {
-    const requestedSample = new URLSearchParams(window.location.search).get('sample');
-    return requestedSample === 'terminal' ? 'terminal' : 'generic';
-  });
+  const [activeSample, setActiveSample] = useState<ShowroomSample>(() => parseShowroomSample(window.location.search));
 
   const changeSample = (nextSample: ShowroomSample) => {
     setActiveSample(nextSample);
-    const url = new URL(window.location.href);
-    url.searchParams.set('sample', nextSample);
-    window.history.replaceState(null, '', url);
+    window.history.replaceState(null, '', updateShowroomSampleUrl(window.location.href, nextSample));
   };
 
   const sampleTitle = activeSample === 'generic' ? '通用列表样板间' : '终端安全样板间';
@@ -416,7 +370,7 @@ function ProductShowroom() {
     if (!showroomFullscreen) return undefined;
 
     const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') {
+      if (isShowroomExitKey(event.key)) {
         setShowroomFullscreen(false);
       }
     };
@@ -447,32 +401,6 @@ function ProductShowroom() {
       {sampleContent}
     </div>}
   </section>;
-}
-
-function AntComponents() {
-  const [activeKey, setActiveKey] = useState(defaultComponentKey);
-  const activeComponent = componentCatalogByKey[activeKey] ?? componentCatalogByKey[defaultComponentKey];
-  const showComponentName = !hasCatalogNameInTitle(activeComponent);
-  const sourceInfo = getComponentSourceInfo(activeComponent.key);
-  const sourceColor = { company: 'green', antd: 'blue', composed: 'gold', asset: 'cyan', static: 'orange' }[sourceInfo.kind];
-
-  return <div className="component-showcase-page">
-    <div className="component-showcase-shell">
-      <aside className="component-catalog-panel">
-        <CatalogTree items={componentGroups} activeKey={activeKey} onSelect={setActiveKey} />
-      </aside>
-      <section className="component-detail-panel">
-        <div className="component-detail-heading">
-          <div><Space size={COMPANY_SPACE[8]}>{showComponentName && <Text type="secondary">{activeComponent.name}</Text>}<Tag color={sourceColor}>{sourceInfo.label}</Tag></Space><Title level={3}>{activeComponent.title}</Title></div>
-        </div>
-        <Paragraph>{activeComponent.description}</Paragraph>
-        <section className="component-preview-section">
-          <div className="component-section-title"><Text strong>规范样式</Text></div>
-          <div className="component-preview-surface">{activeComponent.preview}</div>
-        </section>
-      </section>
-    </div>
-  </div>;
 }
 
 function XComponents() {
@@ -1079,7 +1007,15 @@ export default function App({ themeMode, densityMode, onThemeModeChange, onDensi
   const { token } = theme.useToken();
   const chartPaletteMode: ChartPaletteMode = themeMode.includes('蓝') ? 'blue' : 'green';
   const title = useMemo(() => ({ overview: '资源总览', showroom: '产品样板间', antd: '基础组件', charts: '可视化组件', x: 'AI 组件', workspace: 'AI 工作台示例', sdk: '工程能力' })[page], [page]);
-  const content = { overview: <Overview />, showroom: <ProductShowroom />, antd: <AntComponents />, charts: <ChartComponents paletteMode={chartPaletteMode} />, x: <XComponents />, workspace: <AIWorkspace />, sdk: <SDKPage /> }[page];
+  const content = {
+    overview: <Overview />,
+    showroom: <ProductShowroom />,
+    antd: <Suspense fallback={<Empty image={Empty.PRESENTED_IMAGE_SIMPLE} description="正在加载组件目录" />}><ComponentShowcasePage /></Suspense>,
+    charts: <ChartComponents paletteMode={chartPaletteMode} />,
+    x: <XComponents />,
+    workspace: <AIWorkspace />,
+    sdk: <SDKPage />,
+  }[page];
   const changePage = (nextPage: string) => {
     setPage(nextPage);
     const url = new URL(window.location.href);
