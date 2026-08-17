@@ -66,6 +66,7 @@ import {
   type TerminalMetric,
 } from './pages/terminal/components/TerminalContentComponents';
 import { TerminalRansomwarePage } from './pages/terminal/components/TerminalRansomwarePage';
+import { GenericWorkbenchPage } from './pages/showroom/GenericWorkbenchPage';
 import { CompanyIcon, companyIcons } from '@company/ui/icons';
 import { COMPANY_SPACE, DENSITY_LABELS, DENSITY_MODES, THEME_MODES, type DensityMode, type ThemeMode } from '@company/theme';
 import { isShowroomExitKey, parseShowroomSample, updateShowroomSampleUrl, type ShowroomSample } from './showroomState';
@@ -389,7 +390,7 @@ function ProductShowroom() {
       <div><Title level={3}>产品样板间</Title><Text type="secondary">{sampleDescription}</Text></div>
       <Space size={COMPANY_SPACE[12]} wrap>
         <Segmented
-          options={[{ label: '通用列表样板', value: 'generic' }, { label: '终端安全样板', value: 'terminal' }]}
+          options={[{ label: '通用产品样板', value: 'generic' }, { label: '终端安全样板', value: 'terminal' }]}
           value={activeSample}
           onChange={(value) => changeSample(value as ShowroomSample)}
         />
@@ -527,6 +528,7 @@ const genericListData: GenericListRecord[] = Array.from({ length: 20 }, (_, inde
 function GenericListFramework() {
   const { message: appMessage } = AntdApp.useApp();
   const [form] = Form.useForm();
+  const [activePage, setActivePage] = useState<'workbench' | 'list'>('workbench');
   const [selectedRowKeys, setSelectedRowKeys] = useState<Key[]>([1, 2, 3]);
   const [currentPage, setCurrentPage] = useState(13);
   const [pageSize, setPageSize] = useState(20);
@@ -580,7 +582,13 @@ function GenericListFramework() {
           <img src={terminalBrandAssets.genericLogo} alt="360实际产品名称标识" />
           <img src={terminalBrandAssets.aiBadge} alt="AI" />
         </div>
-        <Menu theme="dark" mode="horizontal" selectedKeys={['list']} items={[{ key: 'list', label: '列表页' }]} />
+        <Menu
+          theme="dark"
+          mode="horizontal"
+          selectedKeys={[activePage]}
+          items={[{ key: 'workbench', label: '工作台' }, { key: 'list', label: '列表页' }]}
+          onClick={({ key }) => setActivePage(key as 'workbench' | 'list')}
+        />
       </div>
       <Space size={COMPANY_SPACE[12]} className="generic-showroom-topbar-actions">
         <Text><CompanyIcon type="icon-anquandanao" /> 360全网安全大脑高效赋能 328 天</Text>
@@ -591,7 +599,7 @@ function GenericListFramework() {
         </Dropdown>
       </Space>
     </Header>
-    <CompanyBusinessLayout
+    {activePage === 'workbench' ? <GenericWorkbenchPage /> : <CompanyBusinessLayout
       className="generic-showroom-layout"
       navigation={navigation}
       header={<CompanyPageHeader className="generic-showroom-page-header" breadcrumbItems={[{ title: '基础列表页' }]} />}
@@ -641,7 +649,7 @@ function GenericListFramework() {
           />
         </div>
       </CompanySurface>
-    </CompanyBusinessLayout>
+    </CompanyBusinessLayout>}
   </div>;
 }
 

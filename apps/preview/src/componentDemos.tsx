@@ -7,10 +7,8 @@ import {
   Breadcrumb,
   Button,
   Drawer,
-  Dropdown,
   Empty,
   Menu,
-  Pagination,
   Popconfirm,
   Progress,
   Segmented,
@@ -51,6 +49,8 @@ import type { CompanyTooltipPlacement } from '@company/ui/tooltip';
 import { CompanyBadge } from '@company/ui/badge';
 import { CompanyCollapse } from '@company/ui/collapse';
 import { CompanyDescriptions } from '@company/ui/descriptions';
+import { CompanyDropdown } from '@company/ui/dropdown';
+import { CompanyPagination } from '@company/ui/pagination';
 import { CompanyTable, CompanyTableActions, CompanyTableLink, CompanyTableProgress, CompanyTableTwoLine } from '@company/ui/table';
 import { CompanyTag } from '@company/ui/tags';
 import { CompanyTimeline } from '@company/ui/timeline';
@@ -224,8 +224,10 @@ export function AntdVariantPreview({ kind }: { kind: AntdDemoKind }) {
   const [targetKeys, setTargetKeys] = useState<string[]>(['2']);
   const [treeValue, setTreeValue] = useState<unknown>('selected-node');
   const [step, setStep] = useState(1);
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(13);
   const [menuKey, setMenuKey] = useState('overview');
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [dropdownValues, setDropdownValues] = useState<string[]>(['option-3']);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [percent, setPercent] = useState(68);
   const [badgeCount, setBadgeCount] = useState(6);
@@ -368,19 +370,19 @@ export function AntdVariantPreview({ kind }: { kind: AntdDemoKind }) {
           { label: '选项三', value: 'three' },
         ]}
       />}
-      {mode === 'card' && <div className="catalog-radio-card-list">
+      {mode === 'card' && <CompanyRadioGroup defaultValue="terminal" className="catalog-radio-card-list">
         <CompanyRadioCard
-          checked
+          value="terminal"
           title="终端安全策略"
           description="面向受管终端启用统一基线、实时防护与异常处置策略。"
-          onChange={() => undefined}
         />
         <CompanyRadioCard
+          value="custom"
           visualState="hover"
           title="自定义防护策略"
           description="根据业务分组和资产类型配置差异化安全能力。"
         />
-      </div>}
+      </CompanyRadioGroup>}
       {mode === 'disabled' && <div className="catalog-radio-state-grid">
         <CompanyRadio disabled>未选失效项</CompanyRadio>
         <CompanyRadio checked disabled>已选失效项</CompanyRadio>
@@ -461,8 +463,8 @@ export function AntdVariantPreview({ kind }: { kind: AntdDemoKind }) {
         </>}
         {mode === 'range' && <>
           <CompanyTimeRangePicker />
-          <CompanyTimeRangePicker visualState="hover" value={completedRange} />
-          <CompanyTimeRangePicker visualState="focused" />
+          <CompanyTimeRangePicker defaultValue={completedRange} />
+          <CompanyTimeRangePicker visualState="hover" defaultValue={completedRange} />
         </>}
         {mode === 'open' && <CompanyTimePicker open defaultValue={completedTime} />}
         {mode === 'disabled' && <>
@@ -505,9 +507,9 @@ export function AntdVariantPreview({ kind }: { kind: AntdDemoKind }) {
           onChange={(value) => setTreeValue(value)}
           placeholder="请选择节点"
           treeData={treeData}
-          treeDefaultExpandedKeys={['root', 'branch']}
+          treeDefaultExpandedKeys={['root', 'branch-open']}
+          virtual={false}
           multiple={multiple}
-          open={mode !== 'disabled'}
           disabled={mode === 'disabled'}
           getPopupContainer={(triggerNode) => triggerNode.parentElement ?? document.body}
         />
@@ -757,13 +759,85 @@ export function AntdVariantPreview({ kind }: { kind: AntdDemoKind }) {
   }
 
   if (kind === 'dropdown') {
-    const options = [{ label: '点击触发', value: 'click' }, { label: '悬停触发', value: 'hover' }, { label: '禁用', value: 'disabled' }];
-    return <VariantPreview options={options} value={mode} onChange={setMode}><Dropdown trigger={mode === 'hover' ? ['hover'] : ['click']} disabled={mode === 'disabled'} menu={{ items: [{ key: 'edit', label: '编辑' }, { key: 'copy', label: '复制' }, { type: 'divider' }, { key: 'delete', label: '删除', danger: true }] }}><Button disabled={mode === 'disabled'}>更多 <CompanyIcon type={companyIcons.expand} /></Button></Dropdown></VariantPreview>;
+    const options = [
+      { label: '点击触发', value: 'click' },
+      { label: '悬停触发', value: 'hover' },
+      { label: '通用菜单', value: 'general' },
+      { label: '禁用', value: 'disabled' },
+    ];
+    const isGeneralMenu = mode === 'general';
+    const generalItems = [
+      { key: 'hover', label: '下拉菜单选项-悬浮', className: 'company-dropdown__demo-hover' },
+      { key: 'default', label: '下拉菜单选项-默认' },
+      { key: 'selected', label: '下拉菜单选项-选中' },
+      { key: 'disabled', label: '下拉菜单选项-失效', disabled: true },
+    ];
+    const customPanel = <div className="company-dropdown__custom-panel">
+      <div className="company-dropdown__custom-options">
+        {['选项 1', '选项 2', '选项 3', '选项 4'].map((label, index) => {
+          const value = `option-${index + 1}`;
+          const isSelected = dropdownValues.includes(value);
+          return <div key={value} className={`company-dropdown__custom-option${isSelected ? ' is-selected' : ''}`}>
+            <CompanyCheckbox
+              checked={isSelected}
+              onChange={(event) => setDropdownValues((values) => event.target.checked
+                ? [...values, value]
+                : values.filter((item) => item !== value))}
+            >
+              {label}
+            </CompanyCheckbox>
+          </div>;
+        })}
+      </div>
+      <div className="company-dropdown__custom-footer">
+        <Button type="text" size="small" onClick={() => setDropdownValues([])}>重置</Button>
+        <Button type="primary" size="small" onClick={() => setDropdownOpen(false)}>确认</Button>
+      </div>
+    </div>;
+
+    return <VariantPreview
+      options={options}
+      value={mode}
+      onChange={(nextMode) => {
+        setMode(nextMode);
+        setDropdownOpen(false);
+      }}
+    >
+      <CompanyDropdown
+        variant={isGeneralMenu ? 'menu' : 'custom'}
+        trigger={mode === 'hover' ? ['hover'] : ['click']}
+        disabled={mode === 'disabled'}
+        open={dropdownOpen}
+        onOpenChange={setDropdownOpen}
+        menu={isGeneralMenu
+          ? { items: generalItems, selectable: true, selectedKeys: ['selected'] }
+          : { items: [] }}
+        popupRender={isGeneralMenu ? undefined : () => customPanel}
+      >
+        <Button disabled={mode === 'disabled'}>
+          {isGeneralMenu ? '通用下拉菜单' : '自定义下拉菜单'}
+          <CompanyIcon type={companyIcons.expand} />
+        </Button>
+      </CompanyDropdown>
+    </VariantPreview>;
   }
 
   if (kind === 'pagination') {
     const options = [{ label: '完整', value: 'full' }, { label: '简洁', value: 'simple' }, { label: '禁用', value: 'disabled' }];
-    return <VariantPreview options={options} value={mode} onChange={setMode}><Pagination current={page} total={86} simple={mode === 'simple'} disabled={mode === 'disabled'} showSizeChanger={mode === 'full'} showQuickJumper={mode === 'full'} onChange={setPage} /></VariantPreview>;
+    return <VariantPreview options={options} value={mode} onChange={setMode}>
+      <CompanyPagination
+        current={page}
+        total={500}
+        defaultPageSize={10}
+        pageSizeOptions={[10, 20, 50, 100]}
+        simple={mode === 'simple'}
+        disabled={mode === 'disabled'}
+        showTotal={mode === 'full' ? () => '共计 4568 条' : false}
+        showSizeChanger={mode === 'full'}
+        showQuickJumper={mode === 'full'}
+        onChange={setPage}
+      />
+    </VariantPreview>;
   }
 
   if (kind === 'steps') {

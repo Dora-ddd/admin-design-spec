@@ -84,7 +84,7 @@ body, .ant-app { font-size: 14px; }
 .ant-tag-red { color: var(--company-danger-text, #cf1322); background: var(--company-danger-soft, #fff1f0); border-color: var(--company-danger-soft, #fff1f0); }
 .ant-table-wrapper .ant-table { color: var(--company-text, #242933); }
 .ant-table-wrapper .ant-table-thead > tr > th { height: 48px; font-weight: 600; line-height: 22px; }
-.ant-table-wrapper .ant-table-tbody > tr > td { height: 48px; line-height: 22px; }
+.ant-table-wrapper .ant-table-tbody > tr.ant-table-row > td { height: 48px; line-height: 22px; }
 .ant-table-wrapper .ant-table-tbody > tr:hover > td { background: var(--company-bg-hover, #f8f9fa); }
 .ant-pagination { display: flex; justify-content: flex-end; margin-block: var(--company-space-8px) 0; }
 .ant-pagination .ant-pagination-item, .ant-pagination .ant-pagination-prev, .ant-pagination .ant-pagination-next { border-radius: var(--company-radius-sm); }
@@ -93,6 +93,7 @@ body, .ant-app { font-size: 14px; }
 .ant-modal-header, .ant-drawer-header { min-height: 56px; padding: var(--company-space-16px) var(--company-space-24px); border-bottom: 1px solid var(--company-divider, #e8eaed); }
 .ant-modal-body, .ant-drawer-body { padding: var(--company-space-24px); }
 .ant-modal-footer, .ant-drawer-footer { padding: var(--company-space-12px) var(--company-space-24px); border-top: 1px solid var(--company-divider, #e8eaed); }
+.ant-drawer-footer { display: flex; align-items: center; justify-content: flex-end; }
 .ant-drawer-content-wrapper { max-width: 80vw; }
 .app-layout { min-height: 100vh; }
 .app-sider { position: sticky !important; top: 0; height: 100vh; border-right: 1px solid var(--company-divider, #e8eaed); z-index: 10; }
@@ -145,11 +146,33 @@ body, .ant-app { font-size: 14px; }
 .catalog-variant-toolbar > .ant-typography { flex: 0 0 auto; margin: 0; }
 .catalog-variant-toolbar .ant-segmented { max-width: 100%; overflow-x: auto; }
 .catalog-variant-surface { width: 100%; min-width: 0; min-height: 128px; display: flex; align-items: center; overflow: auto; }
+.catalog-icon-mapping-showcase { max-height: 560px; padding-right: var(--company-space-8px); display: flex; flex-direction: column; align-items: stretch; gap: var(--company-space-24px); overflow-x: hidden; }
+.catalog-icon-category { min-width: 0; display: flex; flex-direction: column; gap: var(--company-space-12px); }
+.catalog-icon-category-heading { min-height: 28px; display: flex; align-items: center; justify-content: space-between; gap: var(--company-space-16px); }
+.catalog-icon-category-heading .ant-typography { margin: 0; }
+.catalog-icon-grid { min-width: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: var(--company-space-12px); }
+.catalog-icon-card { min-width: 0; min-height: 88px; padding: var(--company-space-12px); display: flex; align-items: center; justify-content: space-between; gap: var(--company-space-12px); border: 1px solid var(--company-divider, #e8eaed); border-radius: var(--company-radius-md); background: var(--company-surface, #fff); }
+.catalog-icon-card-main { min-width: 0; display: flex; align-items: center; gap: var(--company-space-12px); }
+.catalog-icon-glyph { width: 32px; height: 32px; flex: 0 0 32px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--company-divider, #e8eaed); border-radius: var(--company-radius-sm); background: var(--company-surface, #fff); }
+.catalog-icon-glyph--compact { width: 28px; height: 28px; flex-basis: 28px; }
+.catalog-icon-copy { min-width: 0; display: flex; flex-direction: column; gap: var(--company-space-2px); }
+.catalog-icon-copy .ant-typography { margin: 0; }
+.catalog-icon-card > .ant-btn { flex: 0 0 auto; }
+.catalog-icon-copy .ant-typography-secondary { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.catalog-icon-copy code,
+.catalog-icon-distinction code { max-width: 100%; overflow: hidden; color: var(--company-text-secondary, #525966); font-size: 12px; line-height: 18px; text-overflow: ellipsis; white-space: nowrap; }
+.catalog-icon-distinction-list { min-width: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: var(--company-space-12px); }
+.catalog-icon-distinction { min-width: 0; padding: var(--company-space-12px); display: flex; flex-direction: column; gap: var(--company-space-6px); border: 1px solid var(--company-divider, #e8eaed); border-radius: var(--company-radius-md); background: var(--company-surface, #fff); }
+.catalog-icon-distinction .ant-typography { margin: 0; }
+.catalog-icon-distinction .ant-typography-secondary { min-height: 44px; }
+.catalog-icon-distinction-head { min-width: 0; display: flex; align-items: center; justify-content: space-between; gap: var(--company-space-12px); }
+.catalog-icon-distinction-icons { flex: 0 0 auto; display: inline-flex; align-items: center; gap: var(--company-space-6px); }
 .catalog-checkbox-state-grid { width: 100%; display: flex; flex-wrap: wrap; align-items: center; gap: var(--company-space-20px) var(--company-space-32px); }
 .catalog-checkbox-group-demo { width: 100%; display: flex; flex-wrap: wrap; align-items: center; gap: var(--company-space-24px); }
 .catalog-checkbox-group-demo .ant-checkbox-group { display: flex; flex-wrap: wrap; align-items: center; gap: var(--company-space-24px); }
 .catalog-radio-state-grid { width: 100%; display: flex; flex-wrap: wrap; align-items: center; gap: var(--company-space-20px) var(--company-space-32px); }
-.catalog-radio-card-list { width: 100%; display: flex; flex-direction: column; gap: var(--company-space-16px); }
+.catalog-radio-card-list,
+.catalog-radio-card-list.ant-radio-group { width: 100%; display: flex; flex-direction: column; align-items: flex-start; gap: var(--company-space-16px); }
 .catalog-select-demo { width: 100%; min-height: 224px; display: flex; flex-wrap: wrap; align-content: flex-start; align-items: flex-start; gap: var(--company-space-16px); }
 .catalog-time-picker-demo { width: 100%; min-height: 280px; display: flex; flex-wrap: wrap; align-content: flex-start; align-items: flex-start; gap: var(--company-space-16px); }
 .catalog-tree-select-demo { position: relative; width: 280px; min-height: 292px; }

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import type { ReactNode } from 'react';
-import { Button, Input, Segmented, Select, Space, Tooltip, Typography } from 'antd';
-import { CompanyIcon, companyIcons } from '@company/ui/icons';
+import { App as AntdApp, Button, Input, Segmented, Select, Space, Tooltip, Typography } from 'antd';
+import { CompanyIcon, companyIconSemanticResources, companyIconfontProject, companyIcons } from '@company/ui/icons';
 import { COMPANY_SPACE } from '@company/theme';
 import { AntdVariantPreview } from './componentDemos';
 import { CompanyBusinessLayout } from '@company/ui/business-layout';
@@ -71,6 +71,30 @@ const buttonShowcaseTypes = [
   { key: 'text' as CompanyButtonVariant, title: '文字按钮', description: '轻量操作' },
 ];
 
+const iconCategoryLabels = {
+  button: '按钮图标',
+  tag: '标签图标',
+  status: '状态类图标',
+  common: '其他图标',
+} as const;
+
+const iconSemanticDistinctions = [
+  { name: '导入 / 上传', icons: [companyIcons.importData, companyIcons.upload], rule: '导入强调外部数据批量写入系统；上传强调提交文件或附件。', usage: '导入 icon-daoru；上传 icon-shangchuan' },
+  { name: '搜索 / 筛选', icons: [companyIcons.search, companyIcons.filter], rule: '搜索强调关键词查找；筛选强调按条件过滤结果集。', usage: '搜索 icon-a-sousuofangdajing；筛选 icon-shaixuan' },
+  { name: '设置 / 系统设置', icons: [companyIcons.setting], rule: '设置用于局部配置；系统设置用于全局、平台级配置。', usage: '均可用 icon-a-shezhixitong，文案语义优先区分' },
+  { name: '停用 / 失败 / 异常', icons: [companyIcons.failed, companyIcons.warning], rule: '停用是主动关闭能力；失败是执行结果未成功；异常是系统、状态或数据错误提示。', usage: '停用/失败 icon-a-cuowushibai；异常 icon-a-zhuyitishi' },
+  { name: '告警级别 / 安全事件', icons: [companyIcons.alertLevel, companyIcons.securityEvent], rule: '告警级别是等级或严重度标签；安全事件是具体事件对象。', usage: '告警级别 icon-a-biaoqianjingbaojingshibaojing；安全事件 icon-gaojing' },
+  { name: '威胁等级 / 漏洞等级', icons: [companyIcons.threatLevel, companyIcons.vulnerability], rule: '威胁等级描述攻击、威胁或恶意行为强度；漏洞等级描述漏洞或缺陷严重度。', usage: '威胁等级 icon-eyilanjie；漏洞等级 icon-loudong' },
+  { name: '成功 / 高置信度', icons: [companyIcons.success, companyIcons.highConfidence], rule: '成功表示任务或流程结果；高置信度表示判断可信程度。', usage: '成功 icon-a-tongguochenggong；高置信度 icon-gaozhixin' },
+  { name: '待处置 / 处置中', icons: [companyIcons.waiting, companyIcons.inProgress], rule: '待处置表示尚未开始处理；处置中表示流程正在进行。', usage: '待处置 icon-shalou；处置中 icon-lishijilu' },
+  { name: '隐藏 / 显示', icons: [companyIcons.hidden, companyIcons.visible], rule: '隐藏表示内容不可见或关闭展示；显示表示内容可见或开启展示。', usage: '隐藏 icon-a-bukejianbiyan；显示 icon-a-kejianyanjing' },
+  { name: '消息 / 告警', icons: [companyIcons.message, companyIcons.alertLevel], rule: '消息用于普通通知、提醒、公告；告警用于安全、风险、异常类提示。', usage: '消息 icon-a-tixinglingdang；告警类按标签或状态语义匹配' },
+];
+
+function getCompanyIconKey(icon: string) {
+  return Object.entries(companyIcons).find(([, value]) => value === icon)?.[0];
+}
+
 function ButtonShowcase() {
   const [buttonState, setButtonState] = useState('normal');
 
@@ -103,19 +127,67 @@ function ButtonShowcase() {
 }
 
 function IconShowcase() {
+  const { message } = AntdApp.useApp();
   const [size, setSize] = useState('medium');
   const iconSize = size === 'small' ? 16 : size === 'large' ? 24 : 20;
-  const items = [
-    { label: '搜索', icon: companyIcons.search },
-    { label: '设置', icon: companyIcons.setting },
-    { label: '消息', icon: companyIcons.message },
-    { label: '安全事件', icon: companyIcons.securityEvent },
-    { label: '组件', icon: companyIcons.component },
-  ];
+  const copyIconCode = async (icon: string) => {
+    const iconKey = getCompanyIconKey(icon);
+    const code = iconKey ? `<CompanyIcon type={companyIcons.${iconKey}} />` : `<CompanyIcon type="${icon}" />`;
+
+    try {
+      await navigator.clipboard.writeText(code);
+      message.success('图标代码已复制');
+    } catch {
+      message.error('复制失败，请手动选择代码');
+    }
+  };
 
   return <div className="catalog-variant-preview">
     <div className="catalog-variant-toolbar"><Text type="secondary">图标尺寸</Text><Segmented size="small" value={size} options={[{ label: '16px', value: 'small' }, { label: '20px', value: 'medium' }, { label: '24px', value: 'large' }]} onChange={(value) => setSize(String(value))} /></div>
-    <div className="catalog-variant-surface"><Space size={COMPANY_SPACE[18]} className="catalog-icon-row">{items.map((item) => <Tooltip title={item.label} key={item.label}><Button aria-label={item.label} icon={<CompanyIcon type={item.icon} style={{ fontSize: iconSize }} />} /></Tooltip>)}</Space></div>
+    <div className="catalog-variant-surface catalog-icon-mapping-showcase">
+      {Object.entries(iconCategoryLabels).map(([category, label]) => {
+        const items = companyIconSemanticResources.filter((item) => item.category === category);
+
+        return <section className="catalog-icon-category" key={category} aria-label={label}>
+          <div className="catalog-icon-category-heading"><Text strong>{label}</Text><Text type="secondary">{items.length} 项</Text></div>
+          <div className="catalog-icon-grid">
+            {items.map((item) => {
+              const iconKey = getCompanyIconKey(item.icon);
+              const codeLabel = iconKey ? `companyIcons.${iconKey}` : item.icon;
+
+              return <div className="catalog-icon-card" key={`${category}-${item.name}`}>
+                <div className="catalog-icon-card-main">
+                  <span className="catalog-icon-glyph"><CompanyIcon type={item.icon} style={{ fontSize: iconSize }} /></span>
+                  <div className="catalog-icon-copy">
+                    <Text strong>{item.name}</Text>
+                    <Text type="secondary">{item.synonyms.join('、')}</Text>
+                    <code>{item.icon}</code>
+                  </div>
+                </div>
+                <Tooltip title={codeLabel}>
+                  <Button size="small" aria-label={`复制${item.name}图标代码`} icon={<CompanyIcon type={companyIcons.copy} />} onClick={() => void copyIconCode(item.icon)} />
+                </Tooltip>
+              </div>;
+            })}
+          </div>
+        </section>;
+      })}
+      <section className="catalog-icon-category" aria-label="相似语义区分">
+        <div className="catalog-icon-category-heading"><Text strong>相似语义区分</Text><Text type="secondary">{iconSemanticDistinctions.length} 项</Text></div>
+        <div className="catalog-icon-distinction-list">
+          {iconSemanticDistinctions.map((item) => <div className="catalog-icon-distinction" key={item.name}>
+            <div className="catalog-icon-distinction-head">
+              <Text strong>{item.name}</Text>
+              <div className="catalog-icon-distinction-icons" aria-hidden="true">
+                {item.icons.map((icon) => <span className="catalog-icon-glyph catalog-icon-glyph--compact" key={`${item.name}-${icon}`}><CompanyIcon type={icon} style={{ fontSize: iconSize }} /></span>)}
+              </div>
+            </div>
+            <Text type="secondary">{item.rule}</Text>
+            <code>{item.usage}</code>
+          </div>)}
+        </div>
+      </section>
+    </div>
   </div>;
 }
 
@@ -419,9 +491,10 @@ const entries: ComponentCatalogEntry[] = [
     description: '图标用于稳定语义识别，纯图标按钮需要 Tooltip 或 aria-label。',
     docRef: 'docs/specs/icon-resources.md / 4. 图标 class 使用规则；docs/specs/design-system-spec.md / 7.7 图标密集页',
     codeRef: 'docs/specs/icon-resources.md / Iconfont 项目 5177816',
-    code: `<CompanyIcon type={companyIcons.search} />
-<CompanyIcon type={companyIcons.setting} />
-<CompanyIcon type={companyIcons.message} />`,
+    code: `// ${companyIconfontProject.provider} / Iconfont ${companyIconfontProject.projectId}
+<CompanyIcon type={companyIcons.search} />
+<CompanyIcon type={companyIcons.importData} />
+<CompanyIcon type={companyIcons.delete} />`,
     preview: <IconShowcase />,
   },
   {
@@ -494,7 +567,8 @@ const entries: ComponentCatalogEntry[] = [
     docRef: 'MasterGo / 级联下拉（1361:045587）',
     codeRef: 'packages/ui/src/components/cascader/CompanyCascader.tsx',
     code: `<CompanyCascader placeholder="请选择组织" options={options} />
-<CompanyCascader multiple placeholder="请选择组织" options={options} />`,
+<CompanyCascader multiple placeholder="请选择组织" options={options} />
+<CompanyCascader visualState="error" errorMessage="请选择组织" options={options} />`,
     preview: <AntdVariantPreview kind="cascader" />,
   },
   {
@@ -519,7 +593,10 @@ const entries: ComponentCatalogEntry[] = [
     codeRef: 'packages/ui/src/components/radio/CompanyRadio.tsx',
     code: `<CompanyRadio value="enabled">启用</CompanyRadio>
 <CompanyRadioPillGroup value={value} options={options} />
-<CompanyRadioCard value="terminal" title="终端安全策略" description="策略说明" />`,
+<CompanyRadioGroup value={value} onChange={onChange}>
+  <CompanyRadioCard value="terminal" title="终端安全策略" description="策略说明" />
+  <CompanyRadioCard value="custom" title="自定义防护策略" description="策略说明" />
+</CompanyRadioGroup>`,
     preview: <AntdVariantPreview kind="radio" />,
   },
   {
@@ -640,26 +717,34 @@ const entries: ComponentCatalogEntry[] = [
     key: 'dropdown',
     title: '下拉菜单 Dropdown',
     name: 'Dropdown',
-    description: '用于操作收纳和更多菜单，弹层 hover/active 背景保持一致。',
-    docRef: 'docs/specs/design-system-spec.md / 6.2 按钮、7.1 工具栏要求',
-    codeRef: sourceTheme('Dropdown'),
-    code: themeCode('Dropdown', `  paddingBlock: COMPANY_SPACE[4],
-  controlItemBgHover: token.colorFillContentHover,
-  controlItemBgActive: token.colorPrimaryBg,
-  zIndexPopup: 1050,`),
+    description: '工程组件覆盖 MasterGo 自定义多选下拉和选择器式通用菜单，并统一默认、悬停、选中与失效状态。',
+    docRef: 'MasterGo / 自定义下拉（1318:28334）；Select 下拉菜单规范',
+    codeRef: 'packages/ui/src/components/dropdown/CompanyDropdown.tsx',
+    code: `<CompanyDropdown variant="custom" popupRender={() => <CustomPanel />}>
+  <Button>自定义下拉菜单</Button>
+</CompanyDropdown>
+<CompanyDropdown variant="menu" menu={{ items, selectable: true }}>
+  <Button>通用下拉菜单</Button>
+</CompanyDropdown>`,
     preview: <AntdVariantPreview kind="dropdown" />,
   },
   {
     key: 'pagination',
     title: '分页 Pagination',
     name: 'Pagination',
-    description: '分页区位于表格底部右侧，正常数据态展示，Loading/empty/error 隐藏。',
+    description: '完整分页按总数、每页条数、页码轨道和跳页顺序展示；位于表格底部右侧，Loading/empty/error 隐藏。',
     docRef: 'docs/specs/design-system-spec.md / 6.5 分页（Pagination）',
-    codeRef: sourceTheme('Pagination'),
-    code: themeCode('Pagination', `  itemSize: 32,
-  itemActiveBg: token.colorPrimaryBg,
-  itemActiveColor: token.colorPrimary,
-  itemInputBg: token.colorBgContainer,`),
+    codeRef: 'packages/ui/src/components/pagination/CompanyPagination.tsx',
+    code: `<CompanyPagination
+  current={page}
+  total={4568}
+  pageSize={10}
+  pageSizeOptions={[10, 20, 50, 100]}
+  showTotal
+  showSizeChanger
+  showQuickJumper
+  onChange={setPage}
+/>`,
     preview: <AntdVariantPreview kind="pagination" />,
   },
   {
