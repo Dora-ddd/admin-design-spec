@@ -55,6 +55,7 @@ Vue 工程底座已在 `engineering-foundation/src/main.ts` 中注册 `CommonFon
 - 静态 HTML 示例可加载线上 CSS，并使用 `iconfont` 加图标 class 调用图标；Vue 工程实现使用 `<common-font type="icon-xxx" />`。
 - 图标语义应保持稳定，例如刷新、设置、删除、导出、展开、收起、通知和状态。
 - 纯图标按钮需提供 Tooltip 或 aria-label；删除、禁用、覆盖、停止等风险操作需配合文字说明或确认机制。
+- 图标资源展示与图标语义映射演示应直接保留 Iconfont class 的源色值，不得通过 `filter`、统一灰度或强制 `color` 覆盖重绘。
 - 状态、风险和结果类图标必须遵循 `references/design-system-spec.md` 中的语义色规则。
 
 ### 4.2 禁止行为

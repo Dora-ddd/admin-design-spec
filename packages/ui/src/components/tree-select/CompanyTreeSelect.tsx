@@ -25,6 +25,8 @@ export function CompanyTreeSelect({
   multiple,
   treeCheckable,
   treeCheckStrictly,
+  maxTagCount,
+  maxTagPlaceholder,
   popupClassName,
   placeholder = '请选择',
   popupMatchSelectWidth,
@@ -50,12 +52,17 @@ export function CompanyTreeSelect({
       multiple={multiple}
       treeCheckable={resolvedCheckable}
       treeCheckStrictly={treeCheckStrictly ?? Boolean(resolvedCheckable)}
+      maxTagCount={maxTagCount ?? (resolvedCheckable ? 'responsive' : undefined)}
+      maxTagPlaceholder={maxTagPlaceholder ?? (resolvedCheckable ? (omittedValues) => `+${omittedValues.length}` : undefined)}
       placeholder={placeholder}
-      popupClassName={['company-tree-select-dropdown', `company-tree-select-dropdown--${density}`, resolvedCheckable ? 'is-checkable' : '', popupClassName].filter(Boolean).join(' ')}
+      classNames={{
+        popup: {
+          root: ['company-tree-select-dropdown', `company-tree-select-dropdown--${density}`, resolvedCheckable ? 'is-checkable' : '', popupClassName].filter(Boolean).join(' '),
+        },
+      }}
       popupMatchSelectWidth={popupMatchSelectWidth ?? (resolvedCheckable ? 267 : 239)}
       suffixIcon={<CompanyIcon type={companyIcons.down} />}
       switcherIcon={<CompanyIcon type={companyIcons.down} />}
-      removeIcon={<CompanyIcon type={companyIcons.close} />}
       treeNodeFilterProp="title"
     />
   );
