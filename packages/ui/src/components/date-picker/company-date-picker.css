@@ -62,6 +62,12 @@
   font-size: 16px;
 }
 
+.company-date-picker__range-separator {
+  color: currentColor;
+  font-size: 12px;
+  line-height: 16px;
+}
+
 .company-date-picker:not(.ant-picker-disabled):hover,
 .company-date-picker.is-hover,
 .company-date-picker.is-focused {

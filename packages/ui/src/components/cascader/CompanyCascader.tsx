@@ -1,5 +1,5 @@
 import { Cascader } from 'antd';
-import type { ReactElement } from 'react';
+import type { ReactElement, ReactNode } from 'react';
 import type { CascaderProps } from 'antd';
 import { CompanyIcon, companyIcons } from '../../iconResources';
 import './company-cascader.css';
@@ -10,6 +10,7 @@ export type CompanyCascaderVisualState = 'default' | 'hover' | 'focused' | 'erro
 export type CompanyCascaderProps = Omit<CascaderProps, 'size' | 'status'> & {
   companySize?: CompanyCascaderSize;
   visualState?: CompanyCascaderVisualState;
+  errorMessage?: ReactNode;
 };
 
 type CascaderRendererProps = CompanyCascaderProps & Pick<CascaderProps, 'size' | 'status' | 'suffixIcon' | 'classNames'>;
@@ -25,11 +26,13 @@ const antSizeByCompanySize: Record<CompanyCascaderSize, CascaderProps['size']> =
 export function CompanyCascader({
   companySize,
   visualState = 'default',
+  errorMessage = '请选择组织',
   className,
   disabled,
   placeholder = '请选择',
   ...cascaderProps
 }: CompanyCascaderProps) {
+  const isError = visualState === 'error';
   const classes = [
     'company-cascader',
     companySize ? `company-cascader--${companySize}` : 'company-cascader--density',
@@ -37,14 +40,17 @@ export function CompanyCascader({
     className,
   ].filter(Boolean).join(' ');
 
-  return <CascaderRenderer
-    {...cascaderProps}
-    className={classes}
-    size={companySize ? antSizeByCompanySize[companySize] : undefined}
-    status={visualState === 'error' ? 'error' : undefined}
-    disabled={disabled || visualState === 'disabled'}
-    placeholder={placeholder}
-    suffixIcon={<CompanyIcon type={companyIcons.down} />}
-    classNames={{ popup: { root: 'company-cascader-dropdown' } }}
-  />;
+  return <div className={`company-cascader-field ${isError ? 'has-error' : ''}`}>
+    <CascaderRenderer
+      {...cascaderProps}
+      className={classes}
+      size={companySize ? antSizeByCompanySize[companySize] : undefined}
+      status={isError ? 'error' : undefined}
+      disabled={disabled || visualState === 'disabled'}
+      placeholder={placeholder}
+      suffixIcon={<CompanyIcon type={companyIcons.down} />}
+      classNames={{ popup: { root: 'company-cascader-dropdown' } }}
+    />
+    {isError && errorMessage ? <span className="company-cascader__error">{errorMessage}</span> : null}
+  </div>;
 }

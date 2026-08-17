@@ -53,8 +53,6 @@ export function CompanySelect<ValueType = string>({
     suffixIcon={resolvedLoading
       ? <CompanyLoadingRing size={12} strokeWidth={1.5} ariaLabel="选项加载中" />
       : <CompanyIcon type={companyIcons.down} />}
-    removeIcon={<CompanyIcon type={companyIcons.close} />}
-    clearIcon={<CompanyIcon type={companyIcons.close} />}
     classNames={{ popup: { root: `company-select-dropdown company-select-dropdown--${companySize ?? 'density'}` } }}
   />;
 }

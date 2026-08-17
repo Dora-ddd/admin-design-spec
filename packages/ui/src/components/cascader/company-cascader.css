@@ -1,3 +1,14 @@
+.company-cascader-field {
+  display: inline-flex;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.company-cascader-field.has-error {
+  gap: var(--company-space-4px);
+}
+
 .company-cascader {
   --company-cascader-height: var(--company-control-height);
   --company-cascader-padding: var(--company-space-12px);
@@ -109,6 +120,12 @@
 .company-cascader.ant-select-status-error {
   border-color: var(--company-danger, #f0131e) !important;
   box-shadow: none !important;
+}
+
+.company-cascader__error {
+  color: var(--company-danger-text, #c90616);
+  font-size: 12px;
+  line-height: 20px;
 }
 
 .company-cascader-dropdown .ant-cascader-menus {

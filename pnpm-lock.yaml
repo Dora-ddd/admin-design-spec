@@ -156,6 +156,9 @@ importers:
 
   packages/ui:
     dependencies:
+      '@ant-design/icons':
+        specifier: 6.3.2
+        version: 6.3.2(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
       '@ant-design/x':
         specifier: 2.9.0
         version: 2.9.0(antd@6.5.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0))(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
@@ -165,6 +168,9 @@ importers:
       antd:
         specifier: 6.5.3
         version: 6.5.3(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
+      dayjs:
+        specifier: ^1.11.21
+        version: 1.11.21
       react:
         specifier: '>=18.0.0'
         version: 19.2.0

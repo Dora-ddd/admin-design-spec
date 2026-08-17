@@ -136,7 +136,19 @@
 .company-select--multiple .ant-select-selection-item-remove {
   margin-inline-start: var(--company-space-4px);
   color: var(--company-text-tertiary, #8a9099);
-  font-size: 12px;
+  font-size: 10px;
+  line-height: 1;
+}
+
+.company-select--multiple .ant-select-selection-item-remove .anticon {
+  display: inline-flex;
+  color: currentColor;
+  font-size: inherit;
+}
+
+.company-select--multiple .ant-select-selection-item-remove svg {
+  width: 10px;
+  height: 10px;
 }
 
 .company-select-dropdown {
