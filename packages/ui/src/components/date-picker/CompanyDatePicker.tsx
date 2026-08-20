@@ -32,6 +32,7 @@ function pickerClasses(kind: 'single' | 'range', size: CompanyDatePickerSize | u
 }
 
 const pickerSuffix = <CompanyIcon type={companyIcons.down} />;
+const rangeSeparator = <span className="company-date-picker__range-separator">-</span>;
 
 export function CompanyDatePicker({
   companySize,
@@ -66,7 +67,7 @@ export function CompanyDateRangePicker({
     size={companySize ? antSizeByCompanySize[companySize] : undefined}
     disabled={disabled || visualState === 'disabled'}
     placeholder={placeholder}
-    separator={<CompanyIcon type={companyIcons.down} />}
+    separator={rangeSeparator}
     suffixIcon={pickerSuffix}
     classNames={{ popup: { root: 'company-date-picker-dropdown' } }}
   />;

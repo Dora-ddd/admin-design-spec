@@ -3,15 +3,15 @@
 .company-table .ant-table-container { border-radius: var(--company-container-radius) var(--company-container-radius) 0 0; }
 .company-table .ant-table-thead > tr > th { color: var(--company-text, #242933); background: var(--company-fill, #f2f3f5); font-size: 14px; font-weight: 600; line-height: 22px; white-space: nowrap; }
 .company-table .ant-table-thead > tr > th,
-.company-table .ant-table-tbody > tr > td { box-sizing: border-box; padding-inline: var(--company-space-16px) !important; border-bottom: 1px solid var(--company-divider, #e8eaed); }
+.company-table .ant-table-tbody > tr:not(.ant-table-measure-row) > td { box-sizing: border-box; padding-inline: var(--company-space-16px) !important; border-bottom: 1px solid var(--company-divider, #e8eaed); }
 .company-table--small .ant-table-thead > tr,
-.company-table--small .ant-table-tbody > tr { height: 40px !important; }
+.company-table--small .ant-table-tbody > tr.ant-table-row { height: 40px !important; }
 .company-table--small .ant-table-thead > tr > th,
-.company-table--small .ant-table-tbody > tr > td { height: 40px !important; padding-block: 0 !important; }
+.company-table--small .ant-table-tbody > tr.ant-table-row > td { height: 40px !important; padding-block: 0 !important; }
 .company-table--large .ant-table-thead > tr,
-.company-table--large .ant-table-tbody > tr { height: 48px !important; }
+.company-table--large .ant-table-tbody > tr.ant-table-row { height: 48px !important; }
 .company-table--large .ant-table-thead > tr > th,
-.company-table--large .ant-table-tbody > tr > td { height: 48px !important; padding-block: 0 !important; }
+.company-table--large .ant-table-tbody > tr.ant-table-row > td { height: 48px !important; padding-block: 0 !important; }
 .company-table .ant-table-tbody > tr.ant-table-row:hover > td { background: var(--company-surface-muted, #f8f9fa); }
 .company-table .ant-table-tbody > tr.company-table__row--zebra > td { background: var(--company-surface-muted, #f8f9fa); }
 .company-table .ant-table-tbody > tr.ant-table-row-selected > td,
